@@ -5,7 +5,8 @@
     "minimum-stability": "stable",
     "keywords": [
         "infinity",
-        "laravel"
+        "laravel",
+        "php-sdk"
     ],
     "homepage": "http://designanddevelop.io",
     "license": "MIT",
