@@ -4,8 +4,8 @@ namespace KyleWLawrence\Infinity\Services;
 
 use BadMethodCallException;
 use Config;
-use Infinity\Api\HttpClient;
 use InvalidArgumentException;
+use KyleWLawrence\Infinity\Api\HttpClient;
 
 class InfinityService
 {
@@ -13,15 +13,16 @@ class InfinityService
 
     private string $bearer;
 
+    public HttpClient $client;
+
     /**
      * Get auth parameters from config, fail if any are missing.
      * Instantiate API client and set auth bearer token.
      *
      * @throws Exception
      */
-    public function __construct(
-        public ?HttpClient $client,
-    ) {
+    public function __construct()
+    {
         $this->bearer = config('infinity-laravel.bearer');
         $this->workspace = config('infinity-laravel.workspace');
 

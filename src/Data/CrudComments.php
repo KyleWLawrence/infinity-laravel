@@ -1,8 +1,8 @@
 <?php
 
-namespace Infinity\Data;
+namespace KyleWLawrence\Infinity\Data;
 
-use Infinity\Data\Traits\Defaults;
+use KyleWLawrence\Infinity\Data\Traits\Defaults;
 use KyleWLawrence\Infinity\Services\InfinityService;
 
 class CrudView extends View

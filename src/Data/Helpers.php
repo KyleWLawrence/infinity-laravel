@@ -1,10 +1,10 @@
 <?php
 
-use Infinity\Data\CrudAttribute;
-use Infinity\Data\CrudAttributeLabel;
-use Infinity\Data\CrudItem;
-use Infinity\Data\CrudObjectBase;
-use Infinity\Data\Exceptions\UnknownObjectException;
+use KyleWLawrence\Infinity\Data\CrudAttribute;
+use KyleWLawrence\Infinity\Data\CrudAttributeLabel;
+use KyleWLawrence\Infinity\Data\CrudItem;
+use KyleWLawrence\Infinity\Data\CrudObjectBase;
+use KyleWLawrence\Infinity\Data\Exceptions\UnknownObjectException;
 
 if (! function_exists('conv_laravel_inf_obj')) {
     /**

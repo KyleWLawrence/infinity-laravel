@@ -1,6 +1,6 @@
 <?php
 
-namespace Infinity\Data\Traits;
+namespace KyleWLawrence\Infinity\Data\Traits;
 
 use KyleWLawrence\Infinity\Services\InfinityService;
 
