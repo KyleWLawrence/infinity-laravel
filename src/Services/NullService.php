@@ -1,6 +1,6 @@
 <?php
 
-namespace KyleWLawrence\GridPane\Services;
+namespace KyleWLawrence\Infinity\Services;
 
 use Illuminate\Support\Facades\Log;
 
@@ -19,7 +19,7 @@ class NullService
     public function __call($name, $arguments)
     {
         if ($this->logCalls) {
-            Log::debug('Called GridPane facade method: '.$name.' with:', $arguments);
+            Log::debug('Called Infinity facade method: '.$name.' with:', $arguments);
 
             return new self;
         }
