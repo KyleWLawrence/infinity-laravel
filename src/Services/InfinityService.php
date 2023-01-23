@@ -30,10 +30,7 @@ class InfinityService
             throw new InvalidArgumentException('Please set INF_BEARER && INF_WORKSPACE environment variables.');
         }
 
-        if (! $this->client) {
-            $this->client = new HttpClient($this->workspace);
-        }
-
+        $this->client = new HttpClient($this->workspace);
         $this->client->setAuth('bearer', ['bearer' => $this->bearer]);
     }
 

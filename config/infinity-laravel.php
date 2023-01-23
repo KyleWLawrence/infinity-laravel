@@ -12,8 +12,8 @@ return [
     */
 
     'driver' => env('INF_DRIVER', 'api'),
-    'bearer' => env('INF_BEARER'),
-    'workspace' => env('INF_WORKSPACE'),
+    'bearer' => env('INF_BEARER', ''),
+    'workspace' => env('INF_WORKSPACE', 0),
     'objects' => env('INF_OBJECTS', false),
 
 ];
