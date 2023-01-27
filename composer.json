@@ -27,13 +27,18 @@
                 "KyleWLawrence\\Infinity\\Providers\\InfinityServiceProvider"
             ],
             "aliases": {
-                "Infinity": "KyleWLawrence\\Infinity\\Facades\\Infinity"
+                "Infinity": "KyleWLawrence\\Infinity\\Facades\\Infinity",
+                "InfinityBulk": "KyleWLawrence\\Infinity\\Controllers\\InfinityBulk",
+                "InfinityHelpers": "KyleWLawrence\\Infinity\\Controllers\\InfinityHelpers"
             }
         }
     },
     "autoload": {
         "psr-4": {
             "KyleWLawrence\\Infinity\\": "src"
-        }
+        },
+        "files": [
+            "src/Crud/Helpers.php"
+        ]
     }
 }
