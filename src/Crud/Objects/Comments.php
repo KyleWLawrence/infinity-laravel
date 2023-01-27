@@ -14,10 +14,10 @@ class Comments extends OriginalComments
 
     public function __construct(
         object $apiObject,
-        public readonly string $board_id,
+        string $board_id,
         public readonly string $parent_id,
         protected $client = new InfinityService(),
     ) {
-        parent::__construct($apiObject);
+        parent::__construct($apiObject, $board_id);
     }
 }
