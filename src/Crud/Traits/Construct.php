@@ -10,7 +10,7 @@ trait Construct
         object $apiObject,
         protected readonly string $board_id,
         protected $client = new InfinityService(),
-    ): void {
+    ) {
         parent::construct($apiObject);
     }
 }

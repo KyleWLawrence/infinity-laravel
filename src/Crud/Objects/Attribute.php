@@ -2,9 +2,9 @@
 
 namespace KyleWLawrence\Infinity\Crud\Objects;
 
-use KyleWLawrence\Infinity\Data\Attribute as OriginalAttribute;
 use KyleWLawrence\Infinity\Crud\Traits\Construct;
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
+use KyleWLawrence\Infinity\Data\Objects\Attribute as OriginalAttribute;
 
 class Attribute extends OriginalAttribute
 {

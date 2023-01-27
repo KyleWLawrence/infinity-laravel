@@ -4,7 +4,7 @@ namespace KyleWLawrence\Infinity\Crud\Objects;
 
 use KyleWLawrence\Infinity\Crud\Traits\Construct;
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
-use KyleWLawrence\Infinity\Data\AttributeLabel as OriginalAttributeLabel;
+use KyleWLawrence\Infinity\Data\Objects\AttributeLabel as OriginalAttributeLabel;
 
 class AttributeLabel extends OriginalAttributeLabel
 {

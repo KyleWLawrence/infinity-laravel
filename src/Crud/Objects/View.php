@@ -4,7 +4,7 @@ namespace KyleWLawrence\Infinity\Crud\Objects;
 
 use KyleWLawrence\Infinity\Crud\Traits\Construct;
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
-use KyleWLawrence\Infinity\Data\View as OriginalView;
+use KyleWLawrence\Infinity\Data\Objects\View as OriginalView;
 
 class View extends OriginalView
 {

@@ -2,9 +2,9 @@
 
 namespace KyleWLawrence\Infinity\Crud\Objects;
 
-use KyleWLawrence\Infinity\Data\Item as OriginalItem;
 use KyleWLawrence\Infinity\Crud\Traits\Construct;
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
+use KyleWLawrence\Infinity\Data\Objects\Item as OriginalItem;
 
 class Item extends OriginalItem
 {
@@ -15,7 +15,7 @@ class Item extends OriginalItem
 
     public function isNew(): bool
     {
-        return ( $this->id ) ? true : false;
+        return ($this->id) ? true : false;
     }
 
     public function deleteValue($id): void

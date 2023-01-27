@@ -3,7 +3,7 @@
 namespace KyleWLawrence\Infinity\Crud\Objects;
 
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
-use KyleWLawrence\Infinity\Data\Comments as OriginalComments;
+use KyleWLawrence\Infinity\Data\Objects\Comments as OriginalComments;
 use KyleWLawrence\Infinity\Services\InfinityService;
 
 class Comments extends OriginalComments
@@ -17,7 +17,7 @@ class Comments extends OriginalComments
         public readonly string $board_id,
         public readonly string $parent_id,
         protected $client = new InfinityService(),
-    ): void {
+    ) {
         parent::__construct($apiObject);
     }
 }
