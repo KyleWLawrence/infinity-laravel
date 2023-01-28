@@ -34,11 +34,6 @@ class Item extends OriginalItem
         return $values;
     }
 
-    public function isNew(): bool
-    {
-        return ($this->id) ? true : false;
-    }
-
     public function deleteValue($id): void
     {
         $this->client->boards($this->board_id)->items($this->id)->values($id)->delete();

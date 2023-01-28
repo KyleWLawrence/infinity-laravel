@@ -12,7 +12,7 @@ trait Update
 
         $apiObject = $this->buildUpdate(__FUNCTION__, $this->id, $this->getUpdateSet());
         $this->updated = false;
-        $this->setObjectVars($apiObject->all());
+        $this->setObjectVars($apiObject);
 
         return $this;
     }
