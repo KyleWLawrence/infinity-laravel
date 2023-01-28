@@ -13,6 +13,27 @@ class Item extends OriginalItem
         update as traitUpdate;
     }
 
+    public function getUpdateSet()
+    {
+        return [
+            'folder_id' => $this->folder_id,
+            'values' => $this->getUpdateValues(),
+            'parent_id' => $this->parent_id,
+        ];
+    }
+
+    public function getUpdateValues(): array
+    {
+        $values = [];
+        foreach ($this->values as $val) {
+            if (! empty($val->getData())) {
+                $values[] = $val->getUpdateSet();
+            }
+        }
+
+        return $values;
+    }
+
     public function isNew(): bool
     {
         return ($this->id) ? true : false;

@@ -12,7 +12,6 @@ trait Update
 
         $apiObject = $this->buildChain(__FUNCTION__, $this->id, $this->getUpdateSet());
         $this->updated = false;
-
         $this->setObjectVars($apiObject);
 
         return $this;
