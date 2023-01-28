@@ -6,10 +6,10 @@ trait Create
 {
     public function create(): object
     {
-        $apiObject = $this->buildCreate(__FUNCTION__, null, $this->getUpdateSet());
+        $apiObject = $this->buildCreate(__FUNCTION__, $this->getUpdateSet());
 
         $this->updated = false;
-        $this->setObjectVars($apiObject);
+        $this->setObjectVars($apiObject->all());
 
         return $this;
     }

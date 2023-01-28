@@ -4,7 +4,7 @@ namespace KyleWLawrence\Infinity\Crud\Traits;
 
 trait BuildChain
 {
-    public function buildDelete($command, ?string $id = null): object
+    public function buildDelete($command, string $id): object
     {
         $parentName = (isset($this->parent_resource_id_key) && isset($this->{$this->parent_resource_id_key})) ? $this->{$this->parent_resource_id_key} : null;
         $parentId = (isset($this->parent_resource_id) && isset($this->{$this->parent_resource_id})) ? $this->{$this->parent_resource_id} : null;
@@ -16,7 +16,7 @@ trait BuildChain
         }
     }
 
-    public function buildCreate($command, ?array $params = null): object
+    public function buildCreate($command, array $params): object
     {
         $parentName = (isset($this->parent_resource_id_key) && isset($this->{$this->parent_resource_id_key})) ? $this->{$this->parent_resource_id_key} : null;
         $parentId = (isset($this->parent_resource_id) && isset($this->{$this->parent_resource_id})) ? $this->{$this->parent_resource_id} : null;
@@ -28,7 +28,7 @@ trait BuildChain
         }
     }
 
-    public function buildUpdate($command, ?string $id = null, ?array $params = null): object
+    public function buildUpdate($command, string $id, array $params): object
     {
         $parentName = (isset($this->parent_resource_id_key) && isset($this->{$this->parent_resource_id_key})) ? $this->{$this->parent_resource_id_key} : null;
         $parentId = (isset($this->parent_resource_id) && isset($this->{$this->parent_resource_id})) ? $this->{$this->parent_resource_id} : null;
