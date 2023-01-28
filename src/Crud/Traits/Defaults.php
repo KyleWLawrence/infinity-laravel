@@ -10,4 +10,5 @@ trait Defaults
     use Delete;
     use Update;
     use Create;
+    use BuildChain;
 }

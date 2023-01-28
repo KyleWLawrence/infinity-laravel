@@ -10,12 +10,12 @@ class Comments extends OriginalComments
 {
     use Defaults;
 
-    public readonly string $parent_id_key = 'items';
+    protected string $parent_resource_id_key = 'items';
 
     public function __construct(
         object $apiObject,
         string $board_id,
-        public readonly string $parent_id,
+        public readonly string $parent_resource_id,
         protected $client = new InfinityService(),
     ) {
         parent::__construct($apiObject, $board_id);
