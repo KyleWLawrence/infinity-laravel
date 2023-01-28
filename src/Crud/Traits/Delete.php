@@ -6,6 +6,7 @@ trait Delete
 {
     public function delete(): void
     {
-        $this->buildChain(__FUNCTION__, $this->id);
+        $this->buildDelete(__FUNCTION__, $this->id);
+        $this->deleted = true;
     }
 }

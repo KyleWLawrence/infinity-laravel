@@ -6,7 +6,7 @@ trait Create
 {
     public function create(): object
     {
-        $apiObject = $this->buildChain(__FUNCTION__, null, $this->getUpdateSet());
+        $apiObject = $this->buildCreate(__FUNCTION__, null, $this->getUpdateSet());
 
         $this->updated = false;
         $this->setObjectVars($apiObject);

@@ -10,7 +10,7 @@ trait Update
             return $this;
         }
 
-        $apiObject = $this->buildChain(__FUNCTION__, $this->id, $this->getUpdateSet());
+        $apiObject = $this->buildUpdate(__FUNCTION__, $this->id, $this->getUpdateSet());
         $this->updated = false;
         $this->setObjectVars($apiObject);
 
