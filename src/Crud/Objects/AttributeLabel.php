@@ -30,10 +30,10 @@ class AttributeLabel extends OriginalAttributeLabel
 
     public function createLabel(string $name, ?string $color = null): string
     {
-        $label = $this->genLabel($name, $color);
+        $labelId = $this->genLabel($name, $color);
         $this->update();
 
-        return $label->id;
+        return $labelId;
     }
 
     public function updateLabelName(string $name, string $id): void

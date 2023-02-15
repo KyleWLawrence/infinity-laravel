@@ -6,7 +6,7 @@ trait Update
 {
     public function update(): object
     {
-        if ($this->updated === false) {
+        if ($this->isUpdated() === false) {
             return $this;
         }
 

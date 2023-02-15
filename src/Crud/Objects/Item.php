@@ -2,15 +2,27 @@
 
 namespace KyleWLawrence\Infinity\Crud\Objects;
 
-use KyleWLawrence\Infinity\Crud\Traits\Construct;
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
 use KyleWLawrence\Infinity\Data\Objects\Item as OriginalItem;
+use KyleWLawrence\Infinity\Services\InfinityService;
 
 class Item extends OriginalItem
 {
-    use Construct;
     use Defaults {
         update as traitUpdate;
+    }
+
+    public function __construct(
+        object $apiObject,
+        string $board_id,
+        ?array $attributes = null,
+        protected $client = new InfinityService(),
+    ) {
+        parent::__construct($apiObject, $board_id);
+
+        if (! is_null($attributes)) {
+            $this->setAttributes($attributes);
+        }
     }
 
     public function getUpdateSet()
@@ -26,7 +38,7 @@ class Item extends OriginalItem
     {
         $values = [];
         foreach ($this->values as $val) {
-            if (! empty($val->getData())) {
+            if (! empty($val->getData()) && $val->isUpdated()) {
                 $values[] = $val->getUpdateSet();
             }
         }
