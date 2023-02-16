@@ -2,20 +2,13 @@
 
 namespace KyleWLawrence\Infinity\Controllers;
 
-use App\Http\Controllers\Controller;
 use Exception;
 use Infinity;
 use InfinityHelpers;
 use LogIt;
 
-class InfinityBulk extends Controller
+class InfinityBulkUpdate
 {
-    public function __construct(
-        public $cache_length = '',
-    ) {
-        $this->cache_length = config('dnd.cache_length');
-    }
-
     public function list_board_attributes($bid, $fid = '')
     {
         $atts = Infinity::get_board_atts($bid, false);

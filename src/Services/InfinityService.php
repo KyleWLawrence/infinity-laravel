@@ -11,7 +11,7 @@ class InfinityService
 {
     public int $workspace;
 
-    private string $bearer;
+    private string $token;
 
     public HttpClient $client;
 
@@ -23,15 +23,15 @@ class InfinityService
      */
     public function __construct()
     {
-        $this->bearer = config('infinity-laravel.bearer');
+        $this->token = config('infinity-laravel.token');
         $this->workspace = config('infinity-laravel.workspace');
 
-        if (! $this->bearer || ! $this->workspace) {
-            throw new InvalidArgumentException('Please set INF_BEARER && INF_WORKSPACE environment variables.');
+        if (! $this->token || ! $this->workspace) {
+            throw new InvalidArgumentException('Please set INF_TOKEN && INF_WORKSPACE environment variables.');
         }
 
         $this->client = new HttpClient($this->workspace);
-        $this->client->setAuth('bearer', ['bearer' => $this->bearer]);
+        $this->client->setAuth('bearer', ['bearer' => $this->token]);
     }
 
     /**

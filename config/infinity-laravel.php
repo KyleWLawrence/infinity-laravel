@@ -12,7 +12,7 @@ return [
     */
 
     'driver' => env('INF_DRIVER', 'api'),
-    'bearer' => env('INF_BEARER', ''),
+    'token' => env('INF_TOKEN', ''),
     'workspace' => env('INF_WORKSPACE', 0),
     'objects' => env('INF_OBJECTS', false),
 
