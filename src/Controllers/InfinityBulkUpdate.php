@@ -2,94 +2,120 @@
 
 namespace KyleWLawrence\Infinity\Controllers;
 
+use App\Http\Controllers\Controller;
 use Exception;
 use Infinity;
-use InfinityHelpers;
+use KyleWLawrence\Infinity\InfinityHelpers;
 use LogIt;
+use Ramsey\Uuid\Uuid;
 
-class InfinityBulkUpdate
+class InfinityBulkUpdate extends Controller
 {
-    public function list_board_attributes($bid, $fid = '')
+    public function listBoardAtts(string $bid, ?string $fid): array
     {
-        $atts = Infinity::get_board_atts($bid, false);
+        $atts = Infinity::boards($bid)->attributes->getAllLoop()->data;
 
-        if ($fid !== '') {
-            $folders = Infinity::get_board_folders($bid, false);
-            $atts = InfinityHelpers::match_attr_to_folders($folders, $atts);
-            $atts = InfinityHelpers::keep_attr_only_if_in_folders($fid, $atts);
+        if ($fid !== null) {
+            $folders = Infinity::boards($bid)->folders()->getAllLoop()->data;
+            $atts = InfinityHelpers::matchAttsToFolders($folders, $atts);
+            $atts = InfinityHelpers::keepAttsByFolders($fid, $atts);
         }
 
+        $attList = [];
         foreach ($atts as $att) {
-            echo "'{$att['name']}' => '{$att['id']}',\n";
+            $attList[$att['id']] = $att['name'];
         }
 
-        return true;
+        return $attList;
     }
 
-    public function delete_all_from_folder($bid, $fid)
+    public function searchBoardAtts(string $search, string $bid, ?string $fid): array
     {
-        $items = Infinity::get_folder_items($bid, $fid, 'values');
+        $atts = $this->listBoardAtts($bid, $fid);
+
+        $attList = [];
+        foreach ($atts as $id => $name) {
+            if ( strpos($name, $search) !== false ) {
+                $attList[$id] = $name;
+            }
+        }
+
+        return $attList;
+    }
+
+    public function deleteItemsInFolder($bid, $fid): array
+    {
+        $items = Infinity::boards($bid)->items()->getAllLoop(['folder_id' => $fid, 'expand[]' => 'values'])->data;
+        $deleted = [];
 
         foreach ($items as $item) {
-            LogIt::LogActivity("Deleting Item: {$item['id']}");
-            Infinity::infinity_api_delete("boards/{$bid}/items/{$item['id']}");
+            LogIt::LogActivity("Deleting Item: {$item->id}");
+            $deleted[] = $item->id;
+            Infinity::boards($bid)->items()->delete($item->id);
         }
 
-        return true;
+        return $deleted;
     }
 
-    public function delete_duplicate_items_from_attr($bid, $fid, $aid, $delete = true)
+    public function deleteDupesFromAttr($bid, $fid, $aid, $delete = true)
     {
-        if (InfinityHelpers::is_infinity_id($aid) === false) {
-            $aid = Infinity::get_attr_by_name($aid, $bid);
+        if (! Uuid::isValid($aid)) {
+            $atts = Infinity::boards($bid)->attributes()->getAllLoop()->data;
+            $attList = conv_inf_list($atts);
+            $att = $attList->getByKey($aid);
 
-            if ($aid === false) {
+            if ($att === null) {
                 throw new Exception("Unable to find Attr ID ($aid) on board $bid");
+            } else {
+                $aid = $att->getId();
             }
-            $aid = $aid['id'];
         }
 
-        $items = Infinity::get_folder_items($bid, $fid, 'values', false);
+        $items = Infinity::boards($bid)->items()->getAllLoop(['folder_id' => $fid, 'expand[]' => 'values.attributes'])->data;
         $present = [];
         LogIt::LogActivity('Sorting through '.count($items).' items.');
         foreach ($items as $item) {
+            $item = conv_inf_obj($item, $bid);
+            $val = $item->get
+
             $val = InfinityHelpers::get_att_value_from_item($aid, $item, false);
             if ($val == false) {
                 continue;
             }
 
-            if (is_array($val['value'])) {
-                $val['value'] = implode(',', $val['value']);
+            if (is_array($val->value)) {
+                $val->value = implode(',', $val->value);
             }
 
-            if (in_array($val['value'], $present)) {
-                LogIt::LogActivity("Deleting Item: {$item['id']} with dup value: {$val['value']}");
+            if (in_array($val->value, $present)) {
+                LogIt::LogActivity("Deleting Item: {$item->id} with dup value: {$val->value}");
                 if ($delete) {
-                    Infinity::infinity_api_delete("boards/{$bid}/items/{$item['id']}");
+                    Infinity::infinity_api_delete("boards/{$bid}/items/{$item->id}");
                 }
             } else {
-                $present[] = $val['value'];
+                $present[] = $val->value;
             }
         }
 
         return true;
     }
 
-    public function move_all_items_to_folder($bid, $fid_from, $fid_to, $limit = 10)
+    public function moveItemsToFolder($bid, $fid_from, $fid_to, $limit = 10): array
     {
-        $items = Infinity::get_folder_items($bid, $fid_from, '', true);
+        $items = Infinity::boards($bid)->items()->getAllLoop(['folder_id' => $fid_from, 'expand[]' => 'values'])->data;
+        $moved = [];
 
         $i = 0;
         foreach ($items as $item) {
             if (++$i > $limit) {
                 break;
             }
-            $item_update = ['folder_id' => $fid_to];
 
-            LogIt::LogActivity("Moved Infinity Item {$item['id']} to Folder $fid_to");
-            Infinity::infinity_api_put("boards/{$bid}/items/{$item['id']}", $item_update);
+            LogIt::LogActivity("Moving Infinity Item {$item->id} to Folder $fid_to");
+            Infinity::boards($bid)->items()->update($item->id, ['folder_id' => $fid_to]);
+            $moved[] = $item->id;
         }
 
-        return true;
+        return $moved;
     }
 }

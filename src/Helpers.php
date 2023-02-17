@@ -1,15 +1,46 @@
 <?php
 
-namespace KyleWLawrence\Infinity\Controllers;
+namespace KyleWLawrence\Infinity;
 
-use App\Http\Controllers\Controller;
 use Cache;
 use Exception;
 use LogIt;
 use Infinity;
+use Ramsey\Uuid\Uuid;
 
-class InfinityHelpers extends Controller
+class Helpers
 {
+    //------------------ Updated ------------------//
+    public static function matchAttsToFolders($folders, $atts) {
+        foreach( $folders as $folder ) {
+            foreach( $atts as &$att ) {
+                if ( ! isset( $att->folder_names ) ) {
+                    $att->folder_names = [];
+                    $att->folder_ids = [];
+                }
+
+                if ( in_array( $att->id, $folder->attribute_ids ) ) {
+                    $att->folder_names[] = $folder->name;
+                    $att->folder_ids[] = $folder->id;
+                }
+            }
+        }
+
+        return $atts;
+    }
+
+    public static function keepAttsByFolders($folders, $atts) {
+        if ( ! is_array( $folders ) ) $folders = [$folders];
+
+        foreach( $atts as $key => $att ) {
+            $similar = array_intersect( $folders, $att->folder_ids );
+
+            if ( empty( $similar ) ) unset( $atts[$key] );
+        }
+
+        return $atts;
+    }
+
     //-----------------------------------------------------------------------------------
     //    References
     //-----------------------------------------------------------------------------------
@@ -155,7 +186,7 @@ class InfinityHelpers extends Controller
         $value_set = $item['values'][$val_match['key']];
         $orig_set = $value_set;
         if ( ! is_array( $val ) ) $val = [$val];
-        $data_type = ( self::is_infinity_id( $val[0] ) ) ? 'ids' : 'names';
+        $data_type = ( Uuid::isValid( $val[0] ) ) ? 'ids' : 'names';
 
         if ( $data_type === 'ids' ) {
             $value_set = self::remove_val_by_label_ids( $value_set, $val );
@@ -205,7 +236,7 @@ class InfinityHelpers extends Controller
         if ( $type === 'label' ) {
             $remove_labels = ( $att['settings']['multiple'] === true ) ? false : true;
             if ( ! is_array( $val ) ) $val = [$val];
-            $data_type = ( self::is_infinity_id( $val[0] ) ) ? 'ids' : 'names';
+            $data_type = ( Uuid::isValid( $val[0] ) ) ? 'ids' : 'names';
 
             if ( $data_type === 'ids' ) {
                 $value_set = self::update_val_by_label_ids( $value_set, $val, $remove_labels );
@@ -499,36 +530,6 @@ class InfinityHelpers extends Controller
         return $atts;
     }
 
-    public static function keep_attr_only_if_in_folders( $folders, $atts ) {
-        if ( ! is_array( $folders ) ) $folders = [$folders];
-
-        foreach( $atts as $key => $att ) {
-            $similar = array_intersect( $folders, $att['folder_ids'] );
-
-            if ( empty( $similar ) ) unset( $atts[$key] );
-        }
-
-        return $atts;
-    }
-
-   public static function match_attr_to_folders( $folders, $atts ) {
-        foreach( $folders as $folder ) {
-            foreach( $atts as &$att ) {
-                if ( ! isset( $att['folder_names'] ) ) {
-                    $att['folder_names'] = [];
-                    $att['folder_ids'] = [];
-                }
-
-                if ( in_array( $att['id'], $folder['attribute_ids'] ) ) {
-                    $att['folder_names'][] = $folder['name'];
-                    $att['folder_ids'][] = $folder['id'];
-                }
-            }
-        }
-
-        return $atts;
-    }
-
     public static function match_item_by_attr_value( $val, $aid, $items ) {
         foreach( $items as $item ) {
             $match = array_search( $aid, array_column( $item['values'], 'id' ) );
@@ -645,8 +646,8 @@ class InfinityHelpers extends Controller
 
         if ( $fid ) {
             $folders = Infinity::get_board_folders($bid, false);
-            $atts = self::match_attr_to_folders($folders, $atts);
-            $atts = self::keep_attr_only_if_in_folders( $fid, $atts );
+            $atts = self::matchAttsToFolders($folders, $atts);
+            $atts = self::keepAttsByFolders( $fid, $atts );
         }
 
         $keys = array_column( $atts, 'name' );

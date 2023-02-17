@@ -8,7 +8,7 @@ trait Construct
 {
     public function __construct(
         object $apiObject,
-        string $board_id,
+        ?string $board_id = null,
         protected $client = new InfinityService(),
     ) {
         parent::__construct($apiObject, $board_id);

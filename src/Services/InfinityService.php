@@ -13,6 +13,8 @@ class InfinityService
 
     private string $token;
 
+    public bool $objects;
+
     public HttpClient $client;
 
     /**
@@ -25,12 +27,13 @@ class InfinityService
     {
         $this->token = config('infinity-laravel.token');
         $this->workspace = config('infinity-laravel.workspace');
+        $this->objects = config('infinity-laravel.objects', false);
 
         if (! $this->token || ! $this->workspace) {
             throw new InvalidArgumentException('Please set INF_TOKEN && INF_WORKSPACE environment variables.');
         }
 
-        $this->client = new HttpClient($this->workspace);
+        $this->client = new HttpClient($this->workspace, $this->objects);
         $this->client->setAuth('bearer', ['bearer' => $this->token]);
     }
 

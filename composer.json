@@ -38,7 +38,8 @@
             "KyleWLawrence\\Infinity\\": "src"
         },
         "files": [
-            "src/Crud/Helpers.php"
+            "src/Crud/Helpers.php",
+            "src/Helpers.php"
         ]
     }
 }

@@ -15,7 +15,7 @@ class Item extends OriginalItem
     public function __construct(
         object $apiObject,
         string $board_id,
-        ?array $attributes = null,
+        object|array|null $attributes = null,
         protected $client = new InfinityService(),
     ) {
         parent::__construct($apiObject, $board_id);
