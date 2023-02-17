@@ -39,7 +39,7 @@
         },
         "files": [
             "src/Crud/Helpers.php",
-            "src/Helpers.php"
+            "src/InfinityHelpers.php"
         ]
     }
 }

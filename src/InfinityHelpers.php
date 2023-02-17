@@ -8,7 +8,7 @@ use LogIt;
 use Infinity;
 use Ramsey\Uuid\Uuid;
 
-class Helpers
+class InfinityHelpers
 {
     //------------------ Updated ------------------//
     public static function matchAttsToFolders($folders, $atts) {
