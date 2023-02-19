@@ -27,9 +27,7 @@
                 "KyleWLawrence\\Infinity\\Providers\\InfinityServiceProvider"
             ],
             "aliases": {
-                "Infinity": "KyleWLawrence\\Infinity\\Facades\\Infinity",
-                "InfinityBulk": "KyleWLawrence\\Infinity\\Controllers\\InfinityBulk",
-                "InfinityHelpers": "KyleWLawrence\\Infinity\\Controllers\\InfinityHelpers"
+                "Infinity": "KyleWLawrence\\Infinity\\Facades\\Infinity"
             }
         }
     },
@@ -38,8 +36,7 @@
             "KyleWLawrence\\Infinity\\": "src"
         },
         "files": [
-            "src/Crud/Helpers.php",
-            "src/InfinityHelpers.php"
+            "src/Crud/Helpers.php"
         ]
     }
 }
