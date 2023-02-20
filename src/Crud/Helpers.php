@@ -49,11 +49,13 @@ if (! function_exists('conv_laravel_inf_obj')) {
     /**
      * @return Infinity\Data\ObjectBase
      */
-    function conv_laravel_inf_list(object $obj, ?string $boardId = null, object|array|null $atts = null): object
+    function conv_laravel_inf_list(array $array, ?string $boardId = null, object|array|null $atts = null): object
     {
         if (is_object($atts)) {
             $atts = $atts->toArray();
         }
+
+        $obj = reset($array)->object;
 
         switch($obj) {
             case 'item':
@@ -76,6 +78,6 @@ if (! function_exists('conv_laravel_inf_obj')) {
                 break;
         }
 
-        return $obj;
+        return $list;
     }
 }
