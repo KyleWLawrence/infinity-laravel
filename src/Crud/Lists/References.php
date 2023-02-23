@@ -12,7 +12,7 @@ class References extends OriginalReferences
 
     public function __construct(
         array $apiObjects,
-        protected string $board_id,
+        protected ?string $board_id,
         protected $client = new InfinityService(),
     ) {
         parent::__construct($apiObjects, $board_id);

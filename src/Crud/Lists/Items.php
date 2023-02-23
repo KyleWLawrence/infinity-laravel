@@ -13,7 +13,7 @@ class Items extends OriginalItems
 
     public function __construct(
         array $apiObjects,
-        protected string $board_id,
+        protected ?string $board_id,
         public ?array $attributes = null,
         protected $client = new InfinityService(),
     ) {
