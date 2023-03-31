@@ -24,9 +24,9 @@ class References extends OriginalReferences
             $query = (object) $query;
         }
 
-        $key = 'from_item_id';
+        $key = 'to_item_id';
         if (empty($query->from_item_id)) {
-            $key = 'to_item_id';
+            $key = 'from_item_id';
         }
 
         $items = [];
@@ -38,7 +38,10 @@ class References extends OriginalReferences
             $items[] = $this->client->boards($this->board_id)->items()->get($ref->$key, ['expand[]' => 'values.attributes']);
         }
 
-        $items = new Items($items, $this->board_id);
+        if (! empty($items)) {
+            $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data->toArray();
+            $items = new Items($items, $this->board_id, $atts);
+        }
 
         return $items;
     }
