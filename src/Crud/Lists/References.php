@@ -17,4 +17,29 @@ class References extends OriginalReferences
     ) {
         parent::__construct($apiObjects, $board_id);
     }
+
+    public function getReferencedItems(array|object $query, ?string $aid = null)
+    {
+        if (is_array($query)) {
+            $query = (object) $query;
+        }
+
+        $key = 'from_item_id';
+        if (empty($query->from_item_id)) {
+            $key = 'to_item_id';
+        }
+
+        $items = [];
+        foreach ($this->list as $ref) {
+            if (! is_null($aid) && $ref->attribute_id !== $aid) {
+                continue;
+            }
+
+            $items[] = $this->client->boards($this->board_id)->items()->get($ref->$key, ['expand' => ['values.attributes']]);
+        }
+
+        $items = new Items($items, $this->board_id);
+
+        return $items;
+    }
 }
