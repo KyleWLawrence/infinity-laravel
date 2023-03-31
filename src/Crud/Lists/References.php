@@ -35,7 +35,7 @@ class References extends OriginalReferences
                 continue;
             }
 
-            $items[] = $this->client->boards($this->board_id)->items()->get($ref->$key, ['expand' => ['values.attributes']]);
+            $items[] = $this->client->boards($this->board_id)->items()->get($ref->$key, ['expand[]' => 'values.attributes']);
         }
 
         $items = new Items($items, $this->board_id);

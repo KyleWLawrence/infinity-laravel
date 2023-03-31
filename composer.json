@@ -38,5 +38,11 @@
         "files": [
             "src/Crud/Helpers.php"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:kylewlawrence/infinity-api-client-php.git"
+        }
+    ]
 }
