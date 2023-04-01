@@ -14,16 +14,12 @@ class Item extends OriginalItem
     }
 
     public function __construct(
-        object $apiObject,
-        string $board_id,
-        object|array|null $attributes = null,
+        protected object $apiObject,
+        protected ?string $board_id = null,
+        protected null|object|array $attributes = null,
         protected $client = new InfinityService(),
     ) {
-        parent::__construct($apiObject, $board_id);
-
-        if (! is_null($attributes)) {
-            $this->setAttributes($attributes);
-        }
+        parent::__construct($apiObject, $board_id, $attributes);
     }
 
     public function getUpdateSet()
