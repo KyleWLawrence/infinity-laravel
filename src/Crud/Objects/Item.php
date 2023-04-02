@@ -14,7 +14,7 @@ class Item extends OriginalItem
     }
 
     public function __construct(
-        protected object $apiObject,
+        object $apiObject,
         protected ?string $board_id = null,
         protected null|object|array $attributes = null,
         protected $client = new InfinityService(),
@@ -171,5 +171,23 @@ class Item extends OriginalItem
         }
 
         return $valSet;
+    }
+
+    public function verifyOrRetrieveAtt(string $aid): object
+    {
+        if (! isset($this->atttributes[$aid])) {
+            $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data;
+            $this->resetAttributes($atts);
+        }
+
+        return $this;
+    }
+
+    public function retrieveAtts(): object
+    {
+        $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data;
+        $this->resetAttributes($atts);
+
+        return $this;
     }
 }

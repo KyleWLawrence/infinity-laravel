@@ -18,10 +18,6 @@ if (! function_exists('conv_laravel_inf_obj')) {
      */
     function conv_laravel_inf_obj(object $obj, ?string $boardId = null, object|array|null $atts = null): object
     {
-        if (is_object($atts)) {
-            $atts = $atts->toArray();
-        }
-
         switch($obj->object) {
             case 'folderview':
                 $obj = new View($obj, $boardId);
@@ -51,10 +47,6 @@ if (! function_exists('conv_laravel_inf_obj')) {
      */
     function conv_laravel_inf_list(array $array, string $type, ?string $boardId = null, object|array|null $atts = null): object
     {
-        if (is_object($atts)) {
-            $atts = $atts->toArray();
-        }
-
         switch($type) {
             case 'item':
                 $list = new Items($array, $boardId, $atts);
