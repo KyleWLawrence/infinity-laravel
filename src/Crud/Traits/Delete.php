@@ -8,5 +8,6 @@ trait Delete
     {
         $this->buildDelete(__FUNCTION__, $this->id);
         $this->deleted = true;
+        $this->api_deleted = true;
     }
 }

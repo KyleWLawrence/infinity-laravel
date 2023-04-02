@@ -10,9 +10,9 @@ trait BuildChain
         $parentId = (isset($this->parent_resource_id) && isset($this->{$this->parent_resource_id})) ? $this->{$this->parent_resource_id} : null;
 
         if ($parentName !== null) {
-            return $this->client->setConvObj(false)->boards($this->board_id)->$parentName($parentId)->{$this->obj_name_plural}()->$command($id);
+            return $this->client->boards($this->board_id)->$parentName($parentId)->{$this->obj_name_plural}()->setSkipConvObj()->$command($id);
         } else {
-            return $this->client->setConvObj(false)->boards($this->board_id)->{$this->obj_name_plural}()->$command($id);
+            return $this->client->boards($this->board_id)->{$this->obj_name_plural}()->setSkipConvObj()->$command($id);
         }
     }
 
@@ -22,9 +22,9 @@ trait BuildChain
         $parentId = (isset($this->parent_resource_id) && isset($this->{$this->parent_resource_id})) ? $this->{$this->parent_resource_id} : null;
 
         if ($parentName !== null) {
-            return $this->client->setConvObj(false)->boards($this->board_id)->$parentName($parentId)->{$this->obj_name_plural}()->$command($params);
+            return $this->client->boards($this->board_id)->$parentName($parentId)->{$this->obj_name_plural}()->setSkipConvObj()->$command($params);
         } else {
-            return $this->client->setConvObj(false)->boards($this->board_id)->{$this->obj_name_plural}()->$command($params);
+            return $this->client->boards($this->board_id)->{$this->obj_name_plural}()->setSkipConvObj()->$command($params);
         }
     }
 
@@ -34,9 +34,9 @@ trait BuildChain
         $parentId = (isset($this->parent_resource_id) && isset($this->{$this->parent_resource_id})) ? $this->{$this->parent_resource_id} : null;
 
         if ($parentName !== null) {
-            return $this->client->setConvObj(false)->boards($this->board_id)->$parentName($parentId)->{$this->obj_name_plural}()->$command($id, $params);
+            return $this->client->boards($this->board_id)->$parentName($parentId)->{$this->obj_name_plural}()->setSkipConvObj()->$command($id, $params);
         } else {
-            return $this->client->setConvObj(false)->boards($this->board_id)->{$this->obj_name_plural}()->$command($id, $params);
+            return $this->client->boards($this->board_id)->{$this->obj_name_plural}()->setSkipConvObj()->$command($id, $params);
         }
     }
 }

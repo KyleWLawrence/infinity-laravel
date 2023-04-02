@@ -9,6 +9,7 @@ trait Create
         $apiObject = $this->buildCreate(__FUNCTION__, $this->getUpdateSet());
 
         $this->updated = false;
+        $this->api_created = true;
         $this->setObjectVars($apiObject);
 
         return $this;
