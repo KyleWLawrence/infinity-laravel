@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_600c152d099b4a15784d6e17d9655ae0" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Exceptions</compoundname>
+    <innerfile refid="_api_response_exception_8php">ApiResponseException.php</innerfile>
+    <innerfile refid="_auth_exception_8php">AuthException.php</innerfile>
+    <innerfile refid="_custom_exception_8php">CustomException.php</innerfile>
+    <innerfile refid="_invalid_parameters_exception_8php">InvalidParametersException.php</innerfile>
+    <innerfile refid="_missing_parameters_exception_8php">MissingParametersException.php</innerfile>
+    <innerfile refid="_response_exception_8php">ResponseException.php</innerfile>
+    <innerfile refid="_route_exception_8php">RouteException.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Exceptions/"/>
+  </compounddef>
+</doxygen>

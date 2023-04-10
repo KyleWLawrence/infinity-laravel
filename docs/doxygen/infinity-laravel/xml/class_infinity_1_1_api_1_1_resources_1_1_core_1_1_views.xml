@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views" kind="class" language="PHP" prot="public">
+    <compoundname>Infinity::Api::Resources::Core::Views</compoundname>
+    <basecompoundref refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract" prot="public" virt="non-virtual">Infinity\Api\Resources\ResourceAbstract</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views_1ae1b0020e48f7e7a2ae1796adc382a0c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Resources\Core\Views::getAdditionalRouteParams</definition>
+        <argsstring>()</argsstring>
+        <name>getAdditionalRouteParams</name>
+        <qualifiedname>Infinity\Api\Resources\Core\Views\getAdditionalRouteParams</qualifiedname>
+        <reimplements refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1ae2e71841e7978802f341b24d436ebc56">getAdditionalRouteParams</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{@inherticdoc} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Views.php" line="18" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Views.php" bodystart="18" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views_1a90f36fcdc27a0616e02caf6e4b459583" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Resources\Core\Views::setUpRoutes</definition>
+        <argsstring>()</argsstring>
+        <name>setUpRoutes</name>
+        <qualifiedname>Infinity\Api\Resources\Core\Views\setUpRoutes</qualifiedname>
+        <reimplements refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a28ae2aa75646f9199fbf25f27729f2bc">setUpRoutes</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{<para>Sets up the available routes for the resource.</para>
+} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Views.php" line="28" column="24" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Views.php" bodystart="28" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Views class exposes comment methods for views </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Infinity\Api\Resources\ResourceAbstract</label>
+        <link refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract"/>
+      </node>
+      <node id="1">
+        <label>Infinity\Api\Resources\Core\Views</label>
+        <link refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>Client</label>
+      </node>
+      <node id="5">
+        <label>Infinity\Api\Debug</label>
+        <link refid="class_infinity_1_1_api_1_1_debug"/>
+      </node>
+      <node id="3">
+        <label>Infinity\Api\HttpClient</label>
+        <link refid="class_infinity_1_1_api_1_1_http_client"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>$auth</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>$debug</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>$guzzle</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Infinity\Api\Resources\ResourceAbstract</label>
+        <link refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>$client</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Infinity\Api\Utilities\Auth</label>
+        <link refid="class_infinity_1_1_api_1_1_utilities_1_1_auth"/>
+      </node>
+      <node id="1">
+        <label>Infinity\Api\Resources\Core\Views</label>
+        <link refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Views.php" line="11" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Views.php" bodystart="12" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a2f4d54d282d40b45546ae2f891cdf8ee" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$additionalRouteParams</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4c56531511dfa3f31e895f14e438a59c" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$apiBasePath</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aaafe643ca74dbedf0d66ce61245dadaa" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$client</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a92ccd2bc669c6cf1b4a68d2a958c920b" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$includeWorkspace</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aa569f3fe261f4577ca7cbf94f0a42bff" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$lastId</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4aa7771fd07211b4f16b2ead51f795bc" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$objectName</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1abcc0e177407ce9ad20a079507669fa8a" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$objectNamePlural</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a49f7d9094868c07a43e5e6c1df6559f7" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$resourceName</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a1e9e69dd1bd88c7e9f167df038e3687d" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>$routes</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aac4417433ef132a334a03839bf92e65d" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>__construct</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views_1ae1b0020e48f7e7a2ae1796adc382a0c5" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getAdditionalRouteParams</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a571a6d357f4daa4cab7e155b7866f9a0" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getLastId</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1ac42400963ad6d8b4c3c1cbd17063acab" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getResourceName</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1ae1921916742fad2e75ecfb3563a4d649" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getResourceNameFromClass</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aa1156e2239b1b83963188a75ff0d8744" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getRoute</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a66603ed553253b1db09b125f91e92e91" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getRoutes</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4413b50810794a0006b8a07043bba5b4" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>getValidSubResources</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4651feda3f3ad67a6013539480569128" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>hasAnyKey</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a9786f13b3fb546a69691e961199f8be0" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>hasKeys</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aaf8b2d8b98d6d749faca978859b50b69" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>setAdditionalRouteParams</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a271e1c4bc67fe781d1f37a326df9b4f8" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>setLastId</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1acffae54ebcbd365f9b50a7e1e7857165" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>setRoute</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a07e3fb4ed9a934819aefca9504bda814" prot="public" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>setRoutes</name></member>
+      <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views_1a90f36fcdc27a0616e02caf6e4b459583" prot="protected" virt="non-virtual"><scope>Infinity::Api::Resources::Core::Views</scope><name>setUpRoutes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

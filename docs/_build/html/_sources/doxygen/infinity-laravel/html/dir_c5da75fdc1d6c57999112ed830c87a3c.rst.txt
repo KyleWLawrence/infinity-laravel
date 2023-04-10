@@ -1,0 +1,14 @@
+.. meta::5a4874739b6cc9f6136ff669cda3577e1771528805bcc5efe1b40aaa82a110cca5ec638c07392859d86151daaef3a302b97f16773c7c291a2e349aed134b4ae9
+
+:orphan:
+
+.. title:: Infinity for Laravel: /Volumes/Sites/packages/infinity-laravel/vendor Directory Reference
+
+/Volumes/Sites/packages/infinity-laravel/vendor Directory Reference
+===================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_c5da75fdc1d6c57999112ed830c87a3c.html

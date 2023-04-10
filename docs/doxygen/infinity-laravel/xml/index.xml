@@ -1,0 +1,876 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="en-US">
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_api_response_exception" kind="class"><name>Infinity::Api::Exceptions::ApiResponseException</name>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_api_response_exception_1aade1d50224da46b31b6dc4d04cf10317" kind="variable"><name>$errorDetails</name></member>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_api_response_exception_1a5bf56e1c0e575ec892bda7800e8ef6a2" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_api_response_exception_1ae8167a8ca6fe9f2b8d33a5d30dbcb977" kind="function"><name>getErrorDetails</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_attribute" kind="class"><name>Infinity::Data::Attribute</name>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1afaa0e66815686b357f7f497f75ab3575" kind="variable"><name>$type</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1ac9c41527aafedf6820ca4d9bd39b751b" kind="variable"><name>$name</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1aa7584cd8309937f9f745e18f81fdc51b" kind="variable"><name>$dataType</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1ab4a42fc07e4e7154407647726c475346" kind="variable"><name>$settings</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1ab436bb5ff5610cb60999e9b7bcc17a44" kind="variable"><name>$label_map</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a14fb809b06c55150faef881334d57b96" kind="variable"><name>$folders</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a5a4d56cf4a7e3c64f1819edcae39ddfe" kind="function"><name>getUpdateSet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1af8379934e7560efafc875bd60100e137" kind="function"><name>getName</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a2e7027394b545376a9ac1e2a50a58868" kind="function"><name>setName</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1ab0798b7a886af2ded63ff8b5c2a5d16e" kind="function"><name>getSettings</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1ac11f514c6d138825f28313432197ac20" kind="function"><name>setAllSettings</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a55609b1f6a10cd7675c712da0247d2a9" kind="function"><name>setSettings</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a2080321f580cda5cac6a1c869b376a80" kind="function"><name>get_by_id_from_list</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1ac0ae5533e2e256ce72ac06ca33b98077" kind="function"><name>match_item_to_str_value</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a59556d765a0eb317b767d6289cd13eb7" kind="function"><name>match_attr_id_to_item_value</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a30d7ae658f4a5f6989ce0f96119b1ad4" kind="function"><name>get_attr_by_name</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a99f644cd8b41483cc12ee06f7d563493" kind="function"><name>exclude_attr_only_in_folders</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a871b8f6a516a068adb071be4fdd689c9" kind="function"><name>keep_attr_only_if_in_folders</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a5b678a1705ed2430f8daed19456fed26" kind="function"><name>match_attr_to_folders</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1a6d24565e72208f477d264456388e738b" kind="function"><name>match_item_by_attr_value</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_1aa5b6609931f1ee7f8fc509cd81c68968" kind="function"><name>get_attr_from_list</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute" kind="class"><name>KyleWLawrence::Infinity::Crud::Objects::Attribute</name>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_attribute_label" kind="class"><name>Infinity::Data::AttributeLabel</name>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a950cfc653b563c2f2fe8de66be1ec611" kind="variable"><name>$label_map</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a4f6fc8886fa34353d3bf66fe1bfd0254" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1aed64da5bb2974e6f16d14fa3e4d7d8ba" kind="function"><name>getLabelName</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a6fd3e95c83649b59b362d03addcedc25" kind="function"><name>getLabelId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1acda4615bc5b96b579c8919c5b23d7372" kind="function"><name>getLabelIdBySet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a6517563cce50cbac226a15ded215dd64" kind="function"><name>genOrGetLabelIdBySet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a9dda8e3d18f87795497b7d89e627f4ee" kind="function"><name>genLabel</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1ac71c2680c6380ebd3b7c3ecb777be6b5" kind="function"><name>setLabelName</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a83864e534b3cef1094ea2f0fd0247ebc" kind="function"><name>genOrGetLabelId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a670f9d0982749ed4c438b31370605b1b" kind="function"><name>getDefaultName</name></member>
+    <member refid="class_infinity_1_1_data_1_1_attribute_label_1a8d0ae8fbd740faab9f9c04d2e805b8f6" kind="function"><name>generateLightHex</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label" kind="class"><name>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a946e2bc6aeaa18ceef4a3ec71c79d256" kind="variable"><name>$label_map</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ab2ed16f99a5f5ec3de41872ec4a3d0eb" kind="function"><name>setObjectVars</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a40148035406d3ab2c27dc55707d997cf" kind="function"><name>createOrGetLabelIdBySet</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a862cafbfe3667e897de8ad2e38516d8b" kind="function"><name>createLabel</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ac11ededcb68cad553abbf5f590f42064" kind="function"><name>updateLabelName</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ace0873c29852f6a232c4b6f60efe5a39" kind="function"><name>createOrGetLabelId</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_attributes" kind="class"><name>Infinity::Api::Resources::Core::Attributes</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_attributes_1a8a210484ad21796798a4aa2ba7a4cf18" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_attributes_1a01942d2f1cb2022e312e087624f370c4" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes" kind="class"><name>KyleWLawrence::Infinity::Crud::Lists::Attributes</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes_1aac83023bf3c161d788bba3dba246f254" kind="function"><name>__construct</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes_1affa12ab8f1a604fd8f09b3300fc77cb5" kind="function"><name>listByFolder</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes_1a7a52e5bb2d18de82ae9109ea54452f29" kind="function"><name>matchToFolders</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes_1af2ff6964e79403c256f2683331d36c40" kind="function"><name>excludeByFolders</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes_1a651f309106a29640a623b5409a74d661" kind="function"><name>includeByFolders</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_utilities_1_1_auth" kind="class"><name>Infinity::Api::Utilities::Auth</name>
+    <member refid="class_infinity_1_1_api_1_1_utilities_1_1_auth_1a82ffadd69451cf7210a878b74b4302dc" kind="variable"><name>BEARER</name></member>
+    <member refid="class_infinity_1_1_api_1_1_utilities_1_1_auth_1a813ebacd6b0ea1847166dd13209aa1c1" kind="variable"><name>$authStrategy</name></member>
+    <member refid="class_infinity_1_1_api_1_1_utilities_1_1_auth_1a6e577378c43022fd39abb804851820ca" kind="variable"><name>$authOptions</name></member>
+    <member refid="class_infinity_1_1_api_1_1_utilities_1_1_auth_1aabfcf1775a81684d52120bd4ee06abb0" kind="function"><name>getValidAuthStrategies</name></member>
+    <member refid="class_infinity_1_1_api_1_1_utilities_1_1_auth_1a9b9bc1c826000409981351f02d2f7b9e" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_api_1_1_utilities_1_1_auth_1ae71a5bcd7057245fda14119e0425c2a0" kind="function"><name>prepareRequest</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_auth_exception" kind="class"><name>Infinity::Api::Exceptions::AuthException</name>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards" kind="class"><name>Infinity::Api::Resources::Core::Boards</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards_1ae8287763033418dc05ba8421ec7e72e3" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards_1a6cd7102d63dbc8ec9b7a71d0278f89dd" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments" kind="class"><name>KyleWLawrence::Infinity::Crud::Objects::Comments</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments_1a190ccddff638015a854b7412a781bd54" kind="variable"><name>$parent_resource_id_key</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments_1a19acabebf6161b34042dee2e1db51f7c" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_console_1_1_console_command" kind="class"><name>Infinity::Console::ConsoleCommand</name>
+    <member refid="class_infinity_1_1_console_1_1_console_command_1ae307477e88fb3bd67c82f1d1b0bc7f04" kind="function"><name>configure</name></member>
+    <member refid="class_infinity_1_1_console_1_1_console_command_1ade9150cf0037dfd1cbe1646f12406502" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_custom_exception" kind="class"><name>Infinity::Api::Exceptions::CustomException</name>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_custom_exception_1a8ab0c3c134e8ca3b12f809456d3ad9fa" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_debug" kind="class"><name>Infinity::Api::Debug</name>
+    <member refid="class_infinity_1_1_api_1_1_debug_1adff3c634d8fb46458ade7276a2bfbda9" kind="variable"><name>$lastRequestBody</name></member>
+    <member refid="class_infinity_1_1_api_1_1_debug_1a650f3d3606a846b82deb3d5a9b34646b" kind="variable"><name>$lastRequestHeaders</name></member>
+    <member refid="class_infinity_1_1_api_1_1_debug_1a332773e8b34fe185eff5c815c290805f" kind="variable"><name>$lastResponseCode</name></member>
+    <member refid="class_infinity_1_1_api_1_1_debug_1aa357fc2c5620de230c2ab84de384e783" kind="variable"><name>$lastResponseHeaders</name></member>
+    <member refid="class_infinity_1_1_api_1_1_debug_1a38134828370ed7c4859ede063cceb847" kind="variable"><name>$lastResponseError</name></member>
+    <member refid="class_infinity_1_1_api_1_1_debug_1a091d5ce9965c418dd9bfbf982df48132" kind="function"><name>__toString</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_exceptions_1_1_deleted_object_exception" kind="class"><name>Infinity::Data::Exceptions::DeletedObjectException</name>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_folders" kind="class"><name>Infinity::Api::Resources::Core::Folders</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_folders_1a29443a5ec9805544108ef222adcf7a96" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_folders_1ae474d1fad73c0abf433d8494786cd19e" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders" kind="class"><name>KyleWLawrence::Infinity::Crud::Lists::Folders</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders_1a2d2ab134be5dc821f70139b7b440c3f9" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_hooks" kind="class"><name>Infinity::Api::Resources::Core::Hooks</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_hooks_1a2ccbabe54211d20137c29997d789d7a0" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_hooks_1afb063db582d0f7a94af53932aa90654d" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_http" kind="class"><name>Infinity::Api::Http</name>
+    <member refid="class_infinity_1_1_api_1_1_http_1aceca7761408050bd15c1000e9e2538ab" kind="variable"><name>$curl</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_1ad1211dc705e327b6129d9fee2a28f99e" kind="function"><name>send</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_http_client" kind="class"><name>Infinity::Api::HttpClient</name>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a1fce54d6341969766ed2592b021af171" kind="variable"><name>VERSION</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a31183b31badbb2f676368e4311b19f65" kind="variable"><name>$guzzle</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a12bde9e8fdfffb6c94242bf64bbe88fc" kind="variable"><name>$headers</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1ae20e4231ca02beb5c70ca4816ede3c93" kind="variable"><name>$auth</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1adbd12f792a282b7853c3047cdcbfcabb" kind="variable"><name>$scheme</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a4e25a86923a08175e63e5e3f7409dc91" kind="variable"><name>$hostname</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1ac8bb15bffc494629d1d70528d46b600b" kind="variable"><name>$apiUrl</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a7797097541fa688ceb61d34018c43677" kind="variable"><name>$apiBasePath</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a4b39f7fa756dda79bc3f3f72abdfe81b" kind="variable"><name>$debug</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a991a0fb934be244ff5bf20b32d3ae10a" kind="variable"><name>$workspace</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1aeacb34cd138c882d5786b2f17bfe2bfd" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a78db2cfc0823f2d7d1cdc17ca3525bf4" kind="function"><name>getAuth</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a739f203eb38332919f17d3cec9e1bc55" kind="function"><name>setAuth</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1aae0799f775be5bda2eb0021fd8c0a94b" kind="function"><name>getHeaders</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1abe00202bbc9a359f26347dea9a249d7a" kind="function"><name>setHeader</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a23df8d457435940b48f91a9054eae7bf" kind="function"><name>getUserAgent</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a3ed0399640e13e8cd1869c042dae0aab" kind="function"><name>getWorkspace</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a8e14070a5077be945714f4173babb57a" kind="function"><name>setWorkspace</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a379530d463fb50de2071c1deae072267" kind="function"><name>getApiUrl</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1ae9b82682d4a8fb178817b87b892eaaa5" kind="function"><name>setApiBasePath</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a983dcc95a6982dcde07b844ef116804b" kind="function"><name>getApiBasePath</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a847640915573f7152ac7db4a05baee40" kind="function"><name>setDebug</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a9936d3ddd8ca7e32e25c80442df0ee32" kind="function"><name>getDebug</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a50682710b4cbd327c003a73ac935d1ce" kind="function"><name>get</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1ac4f49c8da5d6a025e9d1aae73d8bcfdb" kind="function"><name>post</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1abef3ffb4219fc5204d992a60dfe6c235" kind="function"><name>put</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a48be1d945fc9814c85afa0676d722d71" kind="function"><name>delete</name></member>
+    <member refid="class_infinity_1_1_api_1_1_http_client_1a30775c40ade54d58c263eda678cd0be6" kind="function"><name>getValidSubResources</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity" kind="class"><name>KyleWLawrence::Infinity::Facades::Infinity</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity_1a592fb3a9a0cea7fce73891183aadfb8e" kind="function"><name>getFacadeAccessor</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kind="class"><name>KyleWLawrence::Infinity::Services::InfinityService</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1ade732050365ab7f5acb49b68930fde83" kind="variable"><name>$workspace</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a763857edbab297b2bb7262a42eb6c048" kind="variable"><name>$objects</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a32eff0aee0656037578bab09deea5b74" kind="variable"><name>$client</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a0ff279e403bad246431ecc42f78100ca" kind="variable"><name>$token</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1aa3d82158d265b4fb5229a97d6c76d735" kind="function"><name>__construct</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1af637c041e3692b9ebfafe57b5cff3066" kind="function"><name>__call</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a8f4a28458fb252a007da662fa0b1f9dc" kind="function"><name>__get</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider" kind="class"><name>KyleWLawrence::Infinity::Providers::InfinityServiceProvider</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1afbb385fde175b1d86ef7d31b445cbce3" kind="variable"><name>$defer</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1a09d8dd8871306f6d8951f857352ac666" kind="function"><name>register</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1a5666cfd36b72cbc278a7dc2b79e7b727" kind="function"><name>boot</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_invalid_parameters_exception" kind="class"><name>Infinity::Api::Exceptions::InvalidParametersException</name>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_invalid_parameters_exception_1a146285c58d0bc6988d5af1f38f8e8f10" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_objects_1_1_item" kind="class"><name>Infinity::Data::Objects::Item</name>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1abdf93af36d084b2ccf38c5c9841a7777" kind="variable"><name>$sort_order</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1ab65ed53b51d0371591c8070421694bb2" kind="variable"><name>$nameId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a53bd539ff9febcccab6076b3e7361d3a" kind="variable"><name>$has_atts</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a41f45b6d4038a5d639bded1ce1db4524" kind="variable"><name>$folder_id</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a14fe47f0a47632573b9fb28b13d9f4b6" kind="variable"><name>$parent_id</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a7adde16df4bb823e866e31d3319d6460" kind="variable"><name>$values</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1acee43803262d2bf0431e1785c8864ea7" kind="variable"><name>$attributes</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1aee56894b4887e00987a3806024bc9316" kind="function"><name>setObjectVars</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a668f1a05821de411a0dc1a241aace39a" kind="function"><name>getUpdateSet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a2093f1889fe7aa02f53ab9407e92b2e3" kind="function"><name>getDeleteSet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1ac4095410d500bcd560c0be3e1fe58070" kind="function"><name>unsetEmptyVals</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1ad13495b327eb44176a563646c9a039b0" kind="function"><name>convertInfValObj</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a6914a9bf43f8f2a8e289a8d1635a747f" kind="function"><name>getFolderId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a411c185c626d29c952fdacfe438eb01a" kind="function"><name>setFolderId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1acb0b2a629368efe469800dd623b0c1a9" kind="function"><name>getParentId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1ac6217011705644fb91efff0a1e5b30be" kind="function"><name>setParentId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1afd4287e87c493eff62be057f6f24970e" kind="function"><name>genValue</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1aa15cb6d3d10b2a5d0f2b0cf3ea845df4" kind="function"><name>setDataByAid</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a88c523d5c436637195aad76a4b7555a9" kind="function"><name>getDataByAid</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_item_1a0a29fc639970c8221eb8419911e1fc57" kind="function"><name>setValueData</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item" kind="class"><name>KyleWLawrence::Infinity::Crud::Objects::Item</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a7db58e14be1ec3175e733d1ee4c7b94d" kind="function"><name>__construct</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1ab999dfaa15ed87b01983914b94929fff" kind="function"><name>getUpdateSet</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1ad9522ce464f098deeef39024eae4c39b" kind="function"><name>getUpdateValues</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a5e5435b214593656a82dfde01a2cf962" kind="function"><name>deleteValue</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1ab9151a91ac96f718d508fa35e5092ed4" kind="function"><name>deleteEmptyValues</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a1bcafb1f2599b3b843ca8872fe72d6b0" kind="function"><name>update</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a34f74d502c932646a54d9fa1896c1c55" kind="function"><name>createRefToValMatch</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a81aa579a4234100cb096a95682849695" kind="function"><name>createRefFromValMatch</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a4792a91ea4cc69210dcdd3d489348951" kind="function"><name>createRefOnValMatch</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a16ac704cd96949af2c792f996bf927f9" kind="function"><name>updateValToRef</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1acf709593f759d310790478872db90b1b" kind="function"><name>updateValFromRef</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1ac9fa88cd78f3bb93dc452c4b0fbf3bbe" kind="function"><name>updateValOnRef</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1aeb76355758993734c0d55b6dc3cdf449" kind="function"><name>getValFromRef</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a0ec268c9785adf7fef2387226eb1cd15" kind="function"><name>getValToRef</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a9ce7b31feb4e18443b744ade9dd85384" kind="function"><name>getValOnRef</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1a80074689bd1cbee3081996c7e103ec70" kind="function"><name>verifyOrRetrieveAtt</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item_1aaafcc3b48bc9ebc5c53e1bf40fac3c38" kind="function"><name>retrieveAtts</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_comments" kind="class"><name>Infinity::Api::Resources::Core::ItemComments</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_comments_1a7a7a18970c4d3124bf9dcaac8852ebde" kind="variable"><name>$objectName</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_comments_1acb57c8f0030c22ef9fc8c65dcde94a60" kind="variable"><name>$objectNamePlural</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_comments_1a91ab840e199ee0e914dde48859bd49bc" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_comments_1a9664d57d88b3e5cc640b5c3ad2830619" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_items" kind="class"><name>Infinity::Api::Resources::Core::Items</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_items_1a21f8c29695a130521339815ce480e137" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_items_1aaa317bfef0393f27e4dce08fdb88e473" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_items_1aa54dc261914ceb94af904c9453e98492" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_lists_1_1_items" kind="class"><name>Infinity::Data::Lists::Items</name>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1a277d87145573cb84fc6e424b8eecf56e" kind="variable"><name>$has_atts</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1ac7786eb885359a88260795fdb35eea9e" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1a4770a5b5553e6063955ad180f6387316" kind="function"><name>findItemsByData</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1a0e2c1b048e6b414be4b671ca28eb17be" kind="function"><name>findItemsByLabelName</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1adf94bf7ee1b06ed0ee2129634f207a7b" kind="function"><name>assignAttsToItems</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1ac42b33264dfda063ce453d5758184dd6" kind="function"><name>assignAttsToValues</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items" kind="class"><name>KyleWLawrence::Infinity::Crud::Lists::Items</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a4d95174870f980a078b039777c9b589e" kind="function"><name>__construct</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a97de06d1dbcb81a35da6ec2db594d9f6" kind="function"><name>deleteInFolder</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1af9c0046591daf2f0d96c347e806b571b" kind="function"><name>getDupeByAtts</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a6884daaaacad54c3b9e90a0a870efbaf" kind="function"><name>moveToFolder</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_item_value_base" kind="class"><name>Infinity::Data::ItemValueBase</name>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a3d1122314190eb48177d3793685c1006" kind="variable"><name>$id</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1ada21df2e46baa83b6c2f7abc020e20a5" kind="variable"><name>$object</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1ac370f4151f8be3706a63f92ca0057c5f" kind="variable"><name>$attribute_id</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a4ca4e31f6c7d9f36dfb6970e50db7099" kind="variable"><name>$item_id</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1aed8516e9aeed4e6fcadb33aac9cde2f7" kind="variable"><name>$deleted</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a92677d1db13aedfafb6f555024f10dfe" kind="variable"><name>$attribute</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a0f5a9ba9645b6deddf8d2c7d2915fb90" kind="variable"><name>$data</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a56c56d1143587800cb17343463e2bdc4" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a6e8b1e6ca48298a0f78726de5f5b73ed" kind="function"><name>generateId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1ad493375d905380757cba150327f9d0ed" kind="function"><name>getData</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a518d5eb9067d1151c1eebfa8e011db8d" kind="function"><name>setData</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_base_1a30155b1b1e68373ab545dca89ee6ef3d" kind="function"><name>setObjectVars</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_item_value_link" kind="class"><name>Infinity::Data::ItemValueLink</name>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1aa58f654106b9e83fe02e5e1365dd4551" kind="function"><name>genLink</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1a0f2c2fea1ad736a038093f8af0536817" kind="function"><name>getLinkObjByUrl</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1aa538c49dff0277b5321693b6a7f3a00b" kind="function"><name>getLinkNameByUrl</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1a17dfbbe81d1e54cfbb6dd54a4ff6e2d4" kind="function"><name>getLinkIdByUrl</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1a7e3402e1e45a4d8257eb9a33e6dd2178" kind="function"><name>getOrAddLink</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1ac912eef8d6af6ef00df20cbe488e9ea0" kind="function"><name>updateOrAddLink</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1aa58f654106b9e83fe02e5e1365dd4551" kind="function"><name>genLink</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1a0f2c2fea1ad736a038093f8af0536817" kind="function"><name>getLinkObjByUrl</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1aa538c49dff0277b5321693b6a7f3a00b" kind="function"><name>getLinkNameByUrl</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1a17dfbbe81d1e54cfbb6dd54a4ff6e2d4" kind="function"><name>getLinkIdByUrl</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1a7e3402e1e45a4d8257eb9a33e6dd2178" kind="function"><name>getOrAddLink</name></member>
+    <member refid="class_infinity_1_1_data_1_1_item_value_link_1ac912eef8d6af6ef00df20cbe488e9ea0" kind="function"><name>updateOrAddLink</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_values" kind="class"><name>Infinity::Api::Resources::Core::ItemValues</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_values_1a793db5db9c2724e77123e87ffcc8c356" kind="variable"><name>$objectName</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_values_1a6c0800181a7e958eaaa6f79bfe318e1a" kind="variable"><name>$objectNamePlural</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_values_1aa383f3ca0f65eb520db83553965ea600" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_values_1a6be1f2c3c3453b63911cbbe8a4c2c8f0" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_lists_1_1_list_base" kind="class"><name>Infinity::Data::Lists::ListBase</name>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a1420c091e1d05af2707213f7f17b9c8e" kind="variable"><name>$list</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1ab5c11582eb41a7c9bfeeab186329fdab" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1aa67814c5b017a94fa61e00468f0dc309" kind="function"><name>offsetSet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1aa6d92de891427a041ef5382a151dd396" kind="function"><name>offsetExists</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a721942586a9fa1d0ccd3fb18f23f7dbd" kind="function"><name>offsetUnset</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1ac1a1342418d08543afe80b2d578b4171" kind="function"><name>offsetGet</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a5917965257db0f34e91352296d80de27" kind="function"><name>getById</name></member>
+    <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a658c5adc84caac38b2454e5efbfdd0e1" kind="function"><name>setObjects</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_list_base" kind="class"><name>KyleWLawrence::Infinity::Crud::Lists::ListBase</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_list_base_1a4b3830a726ae0d0886cadcca7c2f87ce" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_missing_parameters_exception" kind="class"><name>Infinity::Api::Exceptions::MissingParametersException</name>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_missing_parameters_exception_1a86227eab72641498d81ced00bfa1d494" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_null_service" kind="class"><name>KyleWLawrence::Infinity::Services::NullService</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_null_service_1aab10418b9f7259b61709bf217aaf8e3b" kind="variable"><name>$logCalls</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_null_service_1a51f65beefabd7cd370c70a3f7718502e" kind="function"><name>__construct</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_null_service_1a655db108b7e35643eca7d4ea28da8ece" kind="function"><name>__call</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_objects_1_1_object_base" kind="class"><name>Infinity::Data::Objects::ObjectBase</name>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a1923b93b5540553de3c85ae3c8cba3da" kind="variable"><name>$id</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a86d66a1b7ed9f142faeb53e7ef205092" kind="variable"><name>$object</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1ae5068e22b0c12d5745d3b720afcc70ef" kind="variable"><name>$obj_name</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a01d5450ae2e6ab6481048d8658ad2802" kind="variable"><name>$obj_name_plural</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1ae067a878eb17450539d9cad0cc6c588f" kind="variable"><name>$created_at</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a14e56bc4f2e1525b8ace21d87bb954d5" kind="variable"><name>$deleted</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1adfb41ed1a6615c4890b9db25b1eabd24" kind="variable"><name>$created_by</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1afd52703fc114e94cfa46379a3b60651b" kind="variable"><name>$parentIdKey</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a04c90356385674d5a656a4b57d7cb6f9" kind="variable"><name>$parentId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a48c8a01ae55dbb67bb8c542e8e76fa8b" kind="variable"><name>$updated</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1aad9a2ab499277066746a97d88733fb2e" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1aceef12b0726aa17801e5bf100018faad" kind="function"><name>generateId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1af83fb4c1c5d33248e89ea64a6d477f0a" kind="function"><name>isValidId</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a1a2010c27f14d9d7645707dd0d5b664f" kind="function"><name>hasKeys</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1acc00836924ebb7368d9fd2481ee48e87" kind="function"><name>setObjectVars</name></member>
+    <member refid="class_infinity_1_1_data_1_1_objects_1_1_object_base_1a40cf427af24fdc5ac3b490dbd6e97558" kind="function"><name>setVar</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_object_base" kind="class"><name>KyleWLawrence::Infinity::Crud::Objects::ObjectBase</name>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_object_view" kind="class"><name>Infinity::Data::ObjectView</name>
+    <member refid="class_infinity_1_1_data_1_1_object_view_1aa381ab779ec7fc7ade95c0939d21bfc4" kind="variable"><name>$obj_name</name></member>
+    <member refid="class_infinity_1_1_data_1_1_object_view_1a729e504e11c34a068a5ca600a0fec1ae" kind="variable"><name>$obj_name_plural</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile" kind="class"><name>Infinity::Api::Resources::Core::Profile</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile_1a435da1539905c1230c9ec348066a94e6" kind="variable"><name>$includeWorkspace</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile_1a9d4f5bf9d716d7f25eab6bc31e1544fc" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile_1aa4975a4858d674b801c3aba520c79c23" kind="function"><name>setUpRoutes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile_1a97a05b156c7667eea7fd3a7932b69d3b" kind="function"><name>getCurrent</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_references" kind="class"><name>Infinity::Api::Resources::Core::References</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_references_1a6d3e18617b4d7b7bb48bfc5f17949a90" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_references_1aa46f2bee679c065e385c40bd34a35610" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references" kind="class"><name>KyleWLawrence::Infinity::Crud::Lists::References</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references_1a4d9bb9d7d2a5a93554bf54f353f5c2f1" kind="function"><name>__construct</name></member>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references_1a4ead118758d9ba582540c0891e0a533e" kind="function"><name>getReferencedItems</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract" kind="class"><name>Infinity::Api::Resources::ResourceAbstract</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a49f7d9094868c07a43e5e6c1df6559f7" kind="variable"><name>$resourceName</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4aa7771fd07211b4f16b2ead51f795bc" kind="variable"><name>$objectName</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1abcc0e177407ce9ad20a079507669fa8a" kind="variable"><name>$objectNamePlural</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aaafe643ca74dbedf0d66ce61245dadaa" kind="variable"><name>$client</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aa569f3fe261f4577ca7cbf94f0a42bff" kind="variable"><name>$lastId</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a1e9e69dd1bd88c7e9f167df038e3687d" kind="variable"><name>$routes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a2f4d54d282d40b45546ae2f891cdf8ee" kind="variable"><name>$additionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4c56531511dfa3f31e895f14e438a59c" kind="variable"><name>$apiBasePath</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a92ccd2bc669c6cf1b4a68d2a958c920b" kind="variable"><name>$includeWorkspace</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aac4417433ef132a334a03839bf92e65d" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1ac42400963ad6d8b4c3c1cbd17063acab" kind="function"><name>getResourceName</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a271e1c4bc67fe781d1f37a326df9b4f8" kind="function"><name>setLastId</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a571a6d357f4daa4cab7e155b7866f9a0" kind="function"><name>getLastId</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a9786f13b3fb546a69691e961199f8be0" kind="function"><name>hasKeys</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4651feda3f3ad67a6013539480569128" kind="function"><name>hasAnyKey</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a07e3fb4ed9a934819aefca9504bda814" kind="function"><name>setRoutes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1acffae54ebcbd365f9b50a7e1e7857165" kind="function"><name>setRoute</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a66603ed553253b1db09b125f91e92e91" kind="function"><name>getRoutes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aa1156e2239b1b83963188a75ff0d8744" kind="function"><name>getRoute</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1aaf8b2d8b98d6d749faca978859b50b69" kind="function"><name>setAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1ae2e71841e7978802f341b24d436ebc56" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a4413b50810794a0006b8a07043bba5b4" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1ae1921916742fad2e75ecfb3563a4d649" kind="function"><name>getResourceNameFromClass</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a28ae2aa75646f9199fbf25f27729f2bc" kind="function"><name>setUpRoutes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a5eebfa3bff83221ca1dcdbf1e75518e6" kind="function"><name>sendGetRequest</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_response_exception" kind="class"><name>Infinity::Api::Exceptions::ResponseException</name>
+    <member refid="class_infinity_1_1_api_1_1_exceptions_1_1_response_exception_1aa7ad2584a3114a06b57957d074168646" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler" kind="class"><name>Infinity::Api::Middleware::RetryHandler</name>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1aa3e9ebb7c1dce689094bdacce3a95358" kind="variable"><name>$timeoutCodes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a959ae4eecf1b4e8e38ff99eca9813686" kind="variable"><name>$options</name></member>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1ad868c679eceec662fcbff28d28ff766e" kind="function"><name>__construct</name></member>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a0cd2df6b796a0600f74af911de1ff70a" kind="function"><name>shouldRetryRequest</name></member>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a35f3c5a0c2d61042bace9b456c0932a8" kind="function"><name>delay</name></member>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a0c8b875decff839ace730e5788feb9ed" kind="function"><name>__invoke</name></member>
+    <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a5b84c5fa9b9cb68c3b58eaee255c5c0f" kind="function"><name>isRetryableException</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_exceptions_1_1_route_exception" kind="class"><name>Infinity::Api::Exceptions::RouteException</name>
+  </compound>
+  <compound refid="class_infinity_1_1_console_1_1_shell" kind="class"><name>Infinity::Console::Shell</name>
+    <member refid="class_infinity_1_1_console_1_1_shell_1ab2827db5b7bd5f7a601f4caae4f69c2e" kind="function"><name>getTabCompletionMatchers</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher" kind="class"><name>Infinity::Console::Matchers::SubResourceMatcher</name>
+    <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1aca0f5b0af1f8720b1e4d85cc11ea68e6" kind="function"><name>getMatches</name></member>
+    <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1a1e4f5fa5a99a7c825e21533998c80fd2" kind="function"><name>hasMatched</name></member>
+    <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1ab43886be5aca5dd9bb3752ac637b69c2" kind="function"><name>methodAttributeMatcher</name></member>
+    <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1a09d750cbfa0af5f754d65e55e564a7d2" kind="function"><name>methodMatcher</name></member>
+    <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1aa8bee6985d7d1c3f8bbf8565b57423a9" kind="function"><name>attributeMatcher</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_data_1_1_exceptions_1_1_unknown_object_exception" kind="class"><name>Infinity::Data::Exceptions::UnknownObjectException</name>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_users" kind="class"><name>Infinity::Api::Resources::Core::Users</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_users_1aca794782c3b24c56428393fe95d0b1db" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_users_1aa03584dcf5c50fae78e0124502b5d4b6" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_view" kind="class"><name>KyleWLawrence::Infinity::Crud::Objects::View</name>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views" kind="class"><name>Infinity::Api::Resources::Core::Views</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views_1ae1b0020e48f7e7a2ae1796adc382a0c5" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views_1a90f36fcdc27a0616e02caf6e4b459583" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_views" kind="class"><name>KyleWLawrence::Infinity::Crud::Lists::Views</name>
+    <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_views_1ad19ca9357a7ae0a07a50762321e55a55" kind="function"><name>__construct</name></member>
+  </compound>
+  <compound refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces" kind="class"><name>Infinity::Api::Resources::Core::Workspaces</name>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1a56681c6fab57ff774c5a2cadd69cd8cb" kind="variable"><name>$includeWorkspace</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1afa8a508180bef11d99ea774d979f6dd1" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1afa8a508180bef11d99ea774d979f6dd1" kind="function"><name>getValidSubResources</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1a2bd7bd3ff1fdac26d0cf1bb40f255beb" kind="function"><name>getAdditionalRouteParams</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1ad0b37eb6e8d0c6640301248025487444" kind="function"><name>createFromFile</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1a28a141872c161e222b53738c9823355e" kind="function"><name>createFromURL</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1abc88c1fa4662420213ec85ffcb57b806" kind="function"><name>setUpRoutes</name></member>
+    <member refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces_1abc88c1fa4662420213ec85ffcb57b806" kind="function"><name>setUpRoutes</name></member>
+  </compound>
+  <compound refid="namespace_array_access" kind="namespace"><name>ArrayAccess</name>
+  </compound>
+  <compound refid="namespace_bad_method_call_exception" kind="namespace"><name>BadMethodCallException</name>
+  </compound>
+  <compound refid="namespace_build_chain" kind="namespace"><name>BuildChain</name>
+  </compound>
+  <compound refid="namespace_chained_parameters_trait" kind="namespace"><name>ChainedParametersTrait</name>
+  </compound>
+  <compound refid="namespace_config" kind="namespace"><name>Config</name>
+  </compound>
+  <compound refid="namespace_construct" kind="namespace"><name>Construct</name>
+  </compound>
+  <compound refid="namespace_create" kind="namespace"><name>Create</name>
+  </compound>
+  <compound refid="namespace_defaults" kind="namespace"><name>Defaults</name>
+  </compound>
+  <compound refid="namespace_delete" kind="namespace"><name>Delete</name>
+  </compound>
+  <compound refid="namespace_doctrine_1_1_inflector_1_1_cached_word_inflector" kind="namespace"><name>Doctrine::Inflector::CachedWordInflector</name>
+  </compound>
+  <compound refid="namespace_doctrine_1_1_inflector_1_1_inflector" kind="namespace"><name>Doctrine::Inflector::Inflector</name>
+  </compound>
+  <compound refid="namespace_doctrine_1_1_inflector_1_1_rules_1_1_english" kind="namespace"><name>Doctrine::Inflector::Rules::English</name>
+  </compound>
+  <compound refid="namespace_doctrine_1_1_inflector_1_1_ruleset_inflector" kind="namespace"><name>Doctrine::Inflector::RulesetInflector</name>
+  </compound>
+  <compound refid="namespace_exception" kind="namespace"><name>Exception</name>
+  </compound>
+  <compound refid="namespace_get" kind="namespace"><name>Get</name>
+  </compound>
+  <compound refid="namespace_get_all" kind="namespace"><name>GetAll</name>
+  </compound>
+  <compound refid="namespace_get_data" kind="namespace"><name>GetData</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_client" kind="namespace"><name>GuzzleHttp::Client</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_exception_1_1_client_exception" kind="namespace"><name>GuzzleHttp::Exception::ClientException</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_exception_1_1_connect_exception" kind="namespace"><name>GuzzleHttp::Exception::ConnectException</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_exception_1_1_request_exception" kind="namespace"><name>GuzzleHttp::Exception::RequestException</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_exception_1_1_server_exception" kind="namespace"><name>GuzzleHttp::Exception::ServerException</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_handler_stack" kind="namespace"><name>GuzzleHttp::HandlerStack</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_psr7_1_1_lazy_open_stream" kind="namespace"><name>GuzzleHttp::Psr7::LazyOpenStream</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_psr7_1_1_request" kind="namespace"><name>GuzzleHttp::Psr7::Request</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_psr7_1_1_utils" kind="namespace"><name>GuzzleHttp::Psr7::Utils</name>
+  </compound>
+  <compound refid="namespace_guzzle_http_1_1_retry_middleware" kind="namespace"><name>GuzzleHttp::RetryMiddleware</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_facade" kind="namespace"><name>Illuminate::Support::Facades::Facade</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_facades_1_1_log" kind="namespace"><name>Illuminate::Support::Facades::Log</name>
+  </compound>
+  <compound refid="namespace_illuminate_1_1_support_1_1_service_provider" kind="namespace"><name>Illuminate::Support::ServiceProvider</name>
+  </compound>
+  <compound refid="namespace_infinity" kind="namespace"><name>Infinity</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api" kind="namespace"><name>Infinity::Api</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_exceptions" kind="namespace"><name>Infinity::Api::Exceptions</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_exceptions_1_1_api_response_exception" kind="namespace"><name>Infinity::Api::Exceptions::ApiResponseException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_exceptions_1_1_auth_exception" kind="namespace"><name>Infinity::Api::Exceptions::AuthException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_exceptions_1_1_custom_exception" kind="namespace"><name>Infinity::Api::Exceptions::CustomException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_exceptions_1_1_missing_parameters_exception" kind="namespace"><name>Infinity::Api::Exceptions::MissingParametersException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_exceptions_1_1_route_exception" kind="namespace"><name>Infinity::Api::Exceptions::RouteException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_http_client" kind="namespace"><name>Infinity::Api::HttpClient</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_middleware" kind="namespace"><name>Infinity::Api::Middleware</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_middleware_1_1_retry_handler" kind="namespace"><name>Infinity::Api::Middleware::RetryHandler</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources" kind="namespace"><name>Infinity::Api::Resources</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_core" kind="namespace"><name>Infinity::Api::Resources::Core</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_core_1_1_attachments" kind="namespace"><name>Infinity::Api::Resources::Core::Attachments</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards" kind="namespace"><name>Infinity::Api::Resources::Core::Boards</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile" kind="namespace"><name>Infinity::Api::Resources::Core::Profile</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_core_1_1_users" kind="namespace"><name>Infinity::Api::Resources::Core::Users</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces" kind="namespace"><name>Infinity::Api::Resources::Core::Workspaces</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_resources_1_1_resource_abstract" kind="namespace"><name>Infinity::Api::Resources::ResourceAbstract</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits" kind="namespace"><name>Infinity::Api::Traits</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource" kind="namespace"><name>Infinity::Api::Traits::Resource</name>
+    <member refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_defaults_8php_1adce5f0638dd4f68ca5874751523729da" kind="variable"><name>Defaults</name></member>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_create" kind="namespace"><name>Infinity::Api::Traits::Resource::Create</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_defaults" kind="namespace"><name>Infinity::Api::Traits::Resource::Defaults</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_delete" kind="namespace"><name>Infinity::Api::Traits::Resource::Delete</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_get" kind="namespace"><name>Infinity::Api::Traits::Resource::Get</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_get_all" kind="namespace"><name>Infinity::Api::Traits::Resource::GetAll</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_utility" kind="namespace"><name>Infinity::Api::Traits::Utility</name>
+    <member refid="_chained_parameters_trait_8php_1a818a2f397ce566da3442967450190496" kind="variable"><name>ChainedParametersTrait</name></member>
+    <member refid="_chained_parameters_trait_8php_1ae8ccc9481428b47e0af660a49c02b084" kind="function"><name>getChainedParameter</name></member>
+    <member refid="_chained_parameters_trait_8php_1ac641d29b12d7ce0abbb121e833a9d6ec" kind="function"><name>getChainedParameters</name></member>
+    <member refid="_chained_parameters_trait_8php_1a69910384b95e5601692c73f127c78367" kind="function"><name>setChainedParameters</name></member>
+    <member refid="_chained_parameters_trait_8php_1ab0c557e5ef5c0a558b9abc751b7beea2" kind="function"><name>addChainedParametersToParams</name></member>
+    <member refid="_chained_parameters_trait_8php_1af2d5cfeb0ccf454622ee6a0e982fe10e" kind="function"><name>getLatestChainedParameter</name></member>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_utility_1_1_chained_parameters_trait" kind="namespace"><name>Infinity::Api::Traits::Utility::ChainedParametersTrait</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_traits_1_1_utility_1_1_instantiator_trait" kind="namespace"><name>Infinity::Api::Traits::Utility::InstantiatorTrait</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_utilities" kind="namespace"><name>Infinity::Api::Utilities</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_api_1_1_utilities_1_1_auth" kind="namespace"><name>Infinity::Api::Utilities::Auth</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_console" kind="namespace"><name>Infinity::Console</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_console_1_1_matchers" kind="namespace"><name>Infinity::Console::Matchers</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher" kind="namespace"><name>Infinity::Console::Matchers::SubResourceMatcher</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data" kind="namespace"><name>Infinity::Data</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_exceptions" kind="namespace"><name>Infinity::Data::Exceptions</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_exceptions_1_1_deleted_object_exception" kind="namespace"><name>Infinity::Data::Exceptions::DeletedObjectException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_exceptions_1_1_unknown_object_exception" kind="namespace"><name>Infinity::Data::Exceptions::UnknownObjectException</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_lists" kind="namespace"><name>Infinity::Data::Lists</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects" kind="namespace"><name>Infinity::Data::Objects</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_attribute" kind="namespace"><name>Infinity::Data::Objects::Attribute</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_attribute_label" kind="namespace"><name>Infinity::Data::Objects::AttributeLabel</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_base" kind="namespace"><name>Infinity::Data::Objects::Base</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_item" kind="namespace"><name>Infinity::Data::Objects::Item</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_item_value_1_1_value_base" kind="namespace"><name>Infinity::Data::Objects::ItemValue::ValueBase</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_item_value_1_1_value_label" kind="namespace"><name>Infinity::Data::Objects::ItemValue::ValueLabel</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_objects_1_1_item_value_1_1_value_link" kind="namespace"><name>Infinity::Data::Objects::ItemValue::ValueLink</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_traits" kind="namespace"><name>Infinity::Data::Traits</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_traits_1_1_get_data" kind="namespace"><name>Infinity::Data::Traits::GetData</name>
+  </compound>
+  <compound refid="namespace_infinity_1_1_data_1_1_traits_1_1_set_data" kind="namespace"><name>Infinity::Data::Traits::SetData</name>
+  </compound>
+  <compound refid="namespace_instantiator_trait" kind="namespace"><name>InstantiatorTrait</name>
+  </compound>
+  <compound refid="namespace_invalid_argument_exception" kind="namespace"><name>InvalidArgumentException</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence" kind="namespace"><name>KyleWLawrence</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity" kind="namespace"><name>KyleWLawrence::Infinity</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_api_1_1_http_client" kind="namespace"><name>KyleWLawrence::Infinity::Api::HttpClient</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud" kind="namespace"><name>KyleWLawrence::Infinity::Crud</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::Attributes</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::Folders</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::Items</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_list_base" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::ListBase</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::References</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_traits" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::Traits</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_traits_1_1_delete" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::Traits::Delete</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_views" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Lists::Views</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Objects</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Objects::Attribute</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_item" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Objects::Item</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_object_base" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Objects::ObjectBase</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_view" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Objects::View</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_traits" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Traits</name>
+    <member refid="src_2_crud_2_traits_2_defaults_8php_1a3a7d27d74aa8611a45631dd85b4ea847" kind="variable"><name>Defaults</name></member>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_traits_1_1_construct" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Traits::Construct</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_traits_1_1_defaults" kind="namespace"><name>KyleWLawrence::Infinity::Crud::Traits::Defaults</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_facades" kind="namespace"><name>KyleWLawrence::Infinity::Facades</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_providers" kind="namespace"><name>KyleWLawrence::Infinity::Providers</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_services" kind="namespace"><name>KyleWLawrence::Infinity::Services</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kind="namespace"><name>KyleWLawrence::Infinity::Services::InfinityService</name>
+  </compound>
+  <compound refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_null_service" kind="namespace"><name>KyleWLawrence::Infinity::Services::NullService</name>
+  </compound>
+  <compound refid="namespace_log_it" kind="namespace"><name>LogIt</name>
+  </compound>
+  <compound refid="namespace_psr_1_1_http_1_1_message_1_1_request_interface" kind="namespace"><name>Psr::Http::Message::RequestInterface</name>
+  </compound>
+  <compound refid="namespace_psr_1_1_http_1_1_message_1_1_stream_interface" kind="namespace"><name>Psr::Http::Message::StreamInterface</name>
+  </compound>
+  <compound refid="namespace_psy" kind="namespace"><name>Psy</name>
+  </compound>
+  <compound refid="namespace_psy_1_1_configuration" kind="namespace"><name>Psy::Configuration</name>
+  </compound>
+  <compound refid="namespace_psy_1_1_tab_completion_1_1_matcher_1_1_abstract_context_aware_matcher" kind="namespace"><name>Psy::TabCompletion::Matcher::AbstractContextAwareMatcher</name>
+  </compound>
+  <compound refid="namespace_psy_1_1_tab_completion_1_1_matcher_1_1_abstract_matcher" kind="namespace"><name>Psy::TabCompletion::Matcher::AbstractMatcher</name>
+  </compound>
+  <compound refid="namespace_psy_1_1_tab_completion_1_1_matcher_1_1_object_attributes_matcher" kind="namespace"><name>Psy::TabCompletion::Matcher::ObjectAttributesMatcher</name>
+  </compound>
+  <compound refid="namespace_psy_1_1_tab_completion_1_1_matcher_1_1_object_methods_matcher" kind="namespace"><name>Psy::TabCompletion::Matcher::ObjectMethodsMatcher</name>
+  </compound>
+  <compound refid="namespace_ramsey_1_1_uuid_1_1_uuid" kind="namespace"><name>Ramsey::Uuid::Uuid</name>
+  </compound>
+  <compound refid="namespace_runtime_exception" kind="namespace"><name>RuntimeException</name>
+  </compound>
+  <compound refid="namespace_set_data" kind="namespace"><name>SetData</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_console_1_1_command_1_1_command" kind="namespace"><name>Symfony::Component::Console::Command::Command</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_console_1_1_input_1_1_input_argument" kind="namespace"><name>Symfony::Component::Console::Input::InputArgument</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_console_1_1_input_1_1_input_interface" kind="namespace"><name>Symfony::Component::Console::Input::InputInterface</name>
+  </compound>
+  <compound refid="namespace_symfony_1_1_component_1_1_console_1_1_output_1_1_output_interface" kind="namespace"><name>Symfony::Component::Console::Output::OutputInterface</name>
+  </compound>
+  <compound refid="namespace_update" kind="namespace"><name>Update</name>
+  </compound>
+  <compound refid="namespace_zendesk_1_1_a_p_i_1_1_http" kind="namespace"><name>Zendesk::API::Http</name>
+  </compound>
+  <compound refid="src_2_crud_2_helpers_8php" kind="file"><name>Helpers.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_helpers_8php" kind="file"><name>Helpers.php</name>
+  </compound>
+  <compound refid="_attributes_8php" kind="file"><name>Attributes.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_lists_2_folders_8php" kind="file"><name>Folders.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_folders_8php" kind="file"><name>Folders.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_lists_2_items_8php" kind="file"><name>Items.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_items_8php" kind="file"><name>Items.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_lists_2_list_base_8php" kind="file"><name>ListBase.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_lists_2_list_base_8php" kind="file"><name>ListBase.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_lists_2_references_8php" kind="file"><name>References.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_references_8php" kind="file"><name>References.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_lists_2_traits_2_delete_8php" kind="file"><name>Delete.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_traits_2_delete_8php" kind="file"><name>Delete.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_delete_8php" kind="file"><name>Delete.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_lists_2_views_8php" kind="file"><name>Views.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_views_8php" kind="file"><name>Views.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_objects_2_attribute_8php" kind="file"><name>Attribute.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_attribute_8php" kind="file"><name>Attribute.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_objects_2_attribute_label_8php" kind="file"><name>AttributeLabel.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_attribute_label_8php" kind="file"><name>AttributeLabel.php</name>
+  </compound>
+  <compound refid="_comments_8php" kind="file"><name>Comments.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_objects_2_item_8php" kind="file"><name>Item.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_item_8php" kind="file"><name>Item.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_objects_2_object_base_8php" kind="file"><name>ObjectBase.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_object_base_8php" kind="file"><name>ObjectBase.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_objects_2_view_8php" kind="file"><name>View.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_view_8php" kind="file"><name>View.php</name>
+  </compound>
+  <compound refid="_build_chain_8php" kind="file"><name>BuildChain.php</name>
+  </compound>
+  <compound refid="_construct_8php" kind="file"><name>Construct.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_traits_2_create_8php" kind="file"><name>Create.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_create_8php" kind="file"><name>Create.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_traits_2_defaults_8php" kind="file"><name>Defaults.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_defaults_8php" kind="file"><name>Defaults.php</name>
+  </compound>
+  <compound refid="src_2_crud_2_traits_2_update_8php" kind="file"><name>Update.php</name>
+  </compound>
+  <compound refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_update_8php" kind="file"><name>Update.php</name>
+  </compound>
+  <compound refid="_infinity_8php" kind="file"><name>Infinity.php</name>
+  </compound>
+  <compound refid="_infinity_service_provider_8php" kind="file"><name>InfinityServiceProvider.php</name>
+  </compound>
+  <compound refid="_infinity_service_8php" kind="file"><name>InfinityService.php</name>
+  </compound>
+  <compound refid="_null_service_8php" kind="file"><name>NullService.php</name>
+  </compound>
+  <compound refid="_debug_8php" kind="file"><name>Debug.php</name>
+  </compound>
+  <compound refid="_api_response_exception_8php" kind="file"><name>ApiResponseException.php</name>
+  </compound>
+  <compound refid="_auth_exception_8php" kind="file"><name>AuthException.php</name>
+  </compound>
+  <compound refid="_custom_exception_8php" kind="file"><name>CustomException.php</name>
+  </compound>
+  <compound refid="_invalid_parameters_exception_8php" kind="file"><name>InvalidParametersException.php</name>
+  </compound>
+  <compound refid="_missing_parameters_exception_8php" kind="file"><name>MissingParametersException.php</name>
+  </compound>
+  <compound refid="_response_exception_8php" kind="file"><name>ResponseException.php</name>
+  </compound>
+  <compound refid="_route_exception_8php" kind="file"><name>RouteException.php</name>
+  </compound>
+  <compound refid="_http_8php" kind="file"><name>Http.php</name>
+  </compound>
+  <compound refid="_http_client_8php" kind="file"><name>HttpClient.php</name>
+  </compound>
+  <compound refid="_retry_handler_8php" kind="file"><name>RetryHandler.php</name>
+  </compound>
+  <compound refid="_attachments_8php" kind="file"><name>Attachments.php</name>
+  </compound>
+  <compound refid="_attribues_8php" kind="file"><name>Attribues.php</name>
+  </compound>
+  <compound refid="_boards_8php" kind="file"><name>Boards.php</name>
+  </compound>
+  <compound refid="_hooks_8php" kind="file"><name>Hooks.php</name>
+  </compound>
+  <compound refid="_item_comments_8php" kind="file"><name>ItemComments.php</name>
+  </compound>
+  <compound refid="_item_values_8php" kind="file"><name>ItemValues.php</name>
+  </compound>
+  <compound refid="_profile_8php" kind="file"><name>Profile.php</name>
+  </compound>
+  <compound refid="_users_8php" kind="file"><name>Users.php</name>
+  </compound>
+  <compound refid="_workspaces_8php" kind="file"><name>Workspaces.php</name>
+  </compound>
+  <compound refid="_resource_abstract_8php" kind="file"><name>ResourceAbstract.php</name>
+  </compound>
+  <compound refid="_get_8php" kind="file"><name>Get.php</name>
+  </compound>
+  <compound refid="_get_all_8php" kind="file"><name>GetAll.php</name>
+  </compound>
+  <compound refid="_resource_name_8php" kind="file"><name>ResourceName.php</name>
+  </compound>
+  <compound refid="_chained_parameters_trait_8php" kind="file"><name>ChainedParametersTrait.php</name>
+  </compound>
+  <compound refid="_instantiator_trait_8php" kind="file"><name>InstantiatorTrait.php</name>
+  </compound>
+  <compound refid="_auth_8php" kind="file"><name>Auth.php</name>
+  </compound>
+  <compound refid="_console_command_8php" kind="file"><name>ConsoleCommand.php</name>
+  </compound>
+  <compound refid="_sub_resource_matcher_8php" kind="file"><name>SubResourceMatcher.php</name>
+  </compound>
+  <compound refid="_shell_8php" kind="file"><name>Shell.php</name>
+  </compound>
+  <compound refid="_deleted_object_exception_8php" kind="file"><name>DeletedObjectException.php</name>
+  </compound>
+  <compound refid="_unknown_object_exception_8php" kind="file"><name>UnknownObjectException.php</name>
+  </compound>
+  <compound refid="_list_items_8php" kind="file"><name>ListItems.php</name>
+  </compound>
+  <compound refid="_value_base_8php" kind="file"><name>ValueBase.php</name>
+  </compound>
+  <compound refid="_value_label_8php" kind="file"><name>ValueLabel.php</name>
+  </compound>
+  <compound refid="_value_link_8php" kind="file"><name>ValueLink.php</name>
+  </compound>
+  <compound refid="_get_data_8php" kind="file"><name>GetData.php</name>
+  </compound>
+  <compound refid="_set_data_8php" kind="file"><name>SetData.php</name>
+  </compound>
+  <compound refid="dir_938eaae0cc782fedc261780db15d6bec" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api</name>
+  </compound>
+  <compound refid="dir_6ca1a5c9e6006f2cf072420c28ba1fd0" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console</name>
+  </compound>
+  <compound refid="dir_e1ecf993019c22ad4fea02d914b149f2" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core</name>
+  </compound>
+  <compound refid="dir_1f68ec0a266f8f5206b9e2ffc50b77d4" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Crud</name>
+  </compound>
+  <compound refid="dir_6b672852ae6e3432f8b2f039f097051f" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data</name>
+  </compound>
+  <compound refid="dir_600c152d099b4a15784d6e17d9655ae0" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Exceptions</name>
+  </compound>
+  <compound refid="dir_5aefa608958294d63e0d5a90ed121889" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Exceptions</name>
+  </compound>
+  <compound refid="dir_cffac211f162b2c1f92b7216c6e30209" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Facades</name>
+  </compound>
+  <compound refid="dir_2ffd6a2e53fe65c0372248d5dfd11068" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php</name>
+  </compound>
+  <compound refid="dir_e3662be6410cf4d6d95ed43a6670b7f1" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Objects/ItemValue</name>
+  </compound>
+  <compound refid="dir_f1bdef2e72e3151a23dfcb7d16f07e17" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence</name>
+  </compound>
+  <compound refid="dir_98785adfca59200b1a91b359527e64af" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists</name>
+  </compound>
+  <compound refid="dir_578cfaced456c1b808afb4463727ed34" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists</name>
+  </compound>
+  <compound refid="dir_a59fba1a21cd73274bcfd72e51bbfe40" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers</name>
+  </compound>
+  <compound refid="dir_cbc90d06bde95a7dfc688391d18baaa2" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware</name>
+  </compound>
+  <compound refid="dir_34520ad582368dc9b4993292f88479b7" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects</name>
+  </compound>
+  <compound refid="dir_fe1ff0871e9ce66119f6e7d19c28891a" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Objects</name>
+  </compound>
+  <compound refid="dir_19ff069c487be8006dd4a41deade00f9" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Providers</name>
+  </compound>
+  <compound refid="dir_c513a80038e3c2c0ca3a58ac678d5545" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Resource</name>
+  </compound>
+  <compound refid="dir_2e32c244e90703d5d6a7e58fef8f0559" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources</name>
+  </compound>
+  <compound refid="dir_6aea3fadc932e04aa9fe3b3b27672cd7" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Services</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src</name>
+  </compound>
+  <compound refid="dir_3aaec3abbc57447813368c6a6a7586f1" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src</name>
+  </compound>
+  <compound refid="dir_5f8565f137a33f0410e15c4ca4abe165" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Traits</name>
+  </compound>
+  <compound refid="dir_407c2e550eb7f54effe638c17eec3224" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits</name>
+  </compound>
+  <compound refid="dir_25e3e2a7c4b2e5ad4241b54d4f86ea38" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits</name>
+  </compound>
+  <compound refid="dir_ad808ee5d5da2f202f423b0102e127a9" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Traits</name>
+  </compound>
+  <compound refid="dir_3f14a4c3ebac76e5d7f2fb1efdef5772" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Utilities</name>
+  </compound>
+  <compound refid="dir_1dc9e97ff88d58ca829a003efa1eaa16" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility</name>
+  </compound>
+  <compound refid="dir_c5da75fdc1d6c57999112ed830c87a3c" kind="dir"><name>/Volumes/Sites/packages/infinity-laravel/vendor</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_response_exception_8php" kind="file" language="PHP">
+    <compoundname>ResponseException.php</compoundname>
+    <innerclass refid="class_infinity_1_1_api_1_1_exceptions_1_1_response_exception" prot="public">Infinity::Api::Exceptions::ResponseException</innerclass>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_exceptions">Infinity::Api::Exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Infinity\Api\Exceptions;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_infinity_1_1_api_1_1_exceptions_1_1_response_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_infinity_1_1_api_1_1_exceptions_1_1_response_exception" kindref="compound">ResponseException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>\Exception</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_infinity_1_1_api_1_1_exceptions_1_1_response_exception_1aa7ad2584a3114a06b57957d074168646" kindref="member">__construct</ref>($method,<sp/>$detail<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>$code<sp/>=<sp/>0,<sp/>\Exception<sp/>$previous<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::__construct(</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;Response<sp/>to<sp/>&apos;</highlight><highlight class="normal">.$method.</highlight><highlight class="stringliteral">&apos;<sp/>is<sp/>not<sp/>valid.<sp/>Call<sp/>$client-&gt;getDebug()<sp/>for<sp/>details&apos;</highlight><highlight class="normal">.$detail,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$code,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$previous</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Exceptions/ResponseException.php"/>
+  </compounddef>
+</doxygen>

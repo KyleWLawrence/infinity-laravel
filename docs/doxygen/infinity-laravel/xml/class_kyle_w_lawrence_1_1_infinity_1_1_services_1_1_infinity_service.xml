@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Services::InfinityService</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1ade732050365ab7f5acb49b68930fde83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int KyleWLawrence\Infinity\Services\InfinityService::$workspace</definition>
+        <argsstring></argsstring>
+        <name>$workspace</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\$workspace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="12" column="16" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a763857edbab297b2bb7262a42eb6c048" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool KyleWLawrence\Infinity\Services\InfinityService::$objects</definition>
+        <argsstring></argsstring>
+        <name>$objects</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\$objects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="16" column="17" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a32eff0aee0656037578bab09deea5b74" prot="public" static="no" mutable="no">
+        <type>HttpClient</type>
+        <definition>HttpClient KyleWLawrence\Infinity\Services\InfinityService::$client</definition>
+        <argsstring></argsstring>
+        <name>$client</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\$client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="18" column="23" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a0ff279e403bad246431ecc42f78100ca" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string KyleWLawrence\Infinity\Services\InfinityService::$token</definition>
+        <argsstring></argsstring>
+        <name>$token</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\$token</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="14" column="20" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1aa3d82158d265b4fb5229a97d6c76d735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Services\InfinityService::__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\__construct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get auth parameters from config, fail if any are missing. Instantiate API client and set auth bearer token.</para>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>Exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="26" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="26" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1af637c041e3692b9ebfafe57b5cff3066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Services\InfinityService::__call</definition>
+        <argsstring>($method, $args)</argsstring>
+        <name>__call</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\__call</qualifiedname>
+        <param>
+          <declname>$method</declname>
+        </param>
+        <param>
+          <declname>$args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pass any method calls onto $this-&gt;client</para>
+<para><simplesect kind="return"><para>mixed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="45" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a8f4a28458fb252a007da662fa0b1f9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Services\InfinityService::__get</definition>
+        <argsstring>($property)</argsstring>
+        <name>__get</name>
+        <qualifiedname>KyleWLawrence\Infinity\Services\InfinityService\__get</qualifiedname>
+        <param>
+          <declname>$property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pass any property calls onto $this-&gt;client</para>
+<para><simplesect kind="return"><para>mixed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="59" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="59" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>HttpClient</label>
+      </node>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Services\InfinityService</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>$client</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" line="10" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Services/InfinityService.php" bodystart="11" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a32eff0aee0656037578bab09deea5b74" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>$client</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a763857edbab297b2bb7262a42eb6c048" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>$objects</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a0ff279e403bad246431ecc42f78100ca" prot="private" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>$token</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1ade732050365ab7f5acb49b68930fde83" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>$workspace</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1af637c041e3692b9ebfafe57b5cff3066" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>__call</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1aa3d82158d265b4fb5229a97d6c76d735" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>__construct</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service_1a8f4a28458fb252a007da662fa0b1f9dc" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Services::InfinityService</scope><name>__get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+.. meta::c8f6971afb85cbaf7c6585a35b76f118067260d36e690837f4284acc6e02880869a1a35dd54461bccf35af9ba2ac678f987f1d2392bdda0c8217f3e0c0f71fdd
+
+:orphan:
+
+.. title:: Infinity for Laravel: /Volumes/Sites/packages/infinity-laravel/src/Facades Directory Reference
+
+/Volumes/Sites/packages/infinity-laravel/src/Facades Directory Reference
+========================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_cffac211f162b2c1f92b7216c6e30209.html

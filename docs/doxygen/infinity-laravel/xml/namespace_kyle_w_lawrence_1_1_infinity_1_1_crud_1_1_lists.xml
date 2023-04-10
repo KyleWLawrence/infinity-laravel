@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists" kind="namespace" language="PHP">
+    <compoundname>KyleWLawrence::Infinity::Crud::Lists</compoundname>
+    <innerclass refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_attributes" prot="public">KyleWLawrence::Infinity::Crud::Lists::Attributes</innerclass>
+    <innerclass refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders" prot="public">KyleWLawrence::Infinity::Crud::Lists::Folders</innerclass>
+    <innerclass refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items" prot="public">KyleWLawrence::Infinity::Crud::Lists::Items</innerclass>
+    <innerclass refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_list_base" prot="public">KyleWLawrence::Infinity::Crud::Lists::ListBase</innerclass>
+    <innerclass refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references" prot="public">KyleWLawrence::Infinity::Crud::Lists::References</innerclass>
+    <innerclass refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_views" prot="public">KyleWLawrence::Infinity::Crud::Lists::Views</innerclass>
+    <innernamespace refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_traits">KyleWLawrence::Infinity::Crud::Lists::Traits</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Attributes.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

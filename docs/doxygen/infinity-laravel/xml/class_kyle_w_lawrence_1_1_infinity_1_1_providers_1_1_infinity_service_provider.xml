@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Providers::InfinityServiceProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ServiceProvider</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1afbb385fde175b1d86ef7d31b445cbce3" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Providers\InfinityServiceProvider::$defer</definition>
+        <argsstring></argsstring>
+        <name>$defer</name>
+        <qualifiedname>KyleWLawrence\Infinity\Providers\InfinityServiceProvider\$defer</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" line="16" column="15" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1a09d8dd8871306f6d8951f857352ac666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Providers\InfinityServiceProvider::register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <qualifiedname>KyleWLawrence\Infinity\Providers\InfinityServiceProvider\register</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register the service provider and merge config.</para>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" line="23" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" bodystart="23" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1a5666cfd36b72cbc278a7dc2b79e7b727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Providers\InfinityServiceProvider::boot</definition>
+        <argsstring>()</argsstring>
+        <name>boot</name>
+        <qualifiedname>KyleWLawrence\Infinity\Providers\InfinityServiceProvider\boot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bind service to &apos;Infinity&apos; for use with Facade.</para>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" line="42" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" bodystart="42" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Providers\InfinityServiceProvider</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ServiceProvider</label>
+      </node>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Providers\InfinityServiceProvider</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Providers/InfinityServiceProvider.php" bodystart="10" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1afbb385fde175b1d86ef7d31b445cbce3" prot="protected" virt="non-virtual"><scope>KyleWLawrence::Infinity::Providers::InfinityServiceProvider</scope><name>$defer</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1a5666cfd36b72cbc278a7dc2b79e7b727" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Providers::InfinityServiceProvider</scope><name>boot</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_providers_1_1_infinity_service_provider_1a09d8dd8871306f6d8951f857352ac666" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Providers::InfinityServiceProvider</scope><name>register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

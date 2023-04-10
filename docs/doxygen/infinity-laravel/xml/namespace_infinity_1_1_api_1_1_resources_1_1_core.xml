@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_infinity_1_1_api_1_1_resources_1_1_core" kind="namespace" language="PHP">
+    <compoundname>Infinity::Api::Resources::Core</compoundname>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_attributes" prot="public">Infinity::Api::Resources::Core::Attributes</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards" prot="public">Infinity::Api::Resources::Core::Boards</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_folders" prot="public">Infinity::Api::Resources::Core::Folders</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_hooks" prot="public">Infinity::Api::Resources::Core::Hooks</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_comments" prot="public">Infinity::Api::Resources::Core::ItemComments</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_items" prot="public">Infinity::Api::Resources::Core::Items</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_item_values" prot="public">Infinity::Api::Resources::Core::ItemValues</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_profile" prot="public">Infinity::Api::Resources::Core::Profile</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_references" prot="public">Infinity::Api::Resources::Core::References</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_users" prot="public">Infinity::Api::Resources::Core::Users</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_views" prot="public">Infinity::Api::Resources::Core::Views</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_workspaces" prot="public">Infinity::Api::Resources::Core::Workspaces</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Attachments.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

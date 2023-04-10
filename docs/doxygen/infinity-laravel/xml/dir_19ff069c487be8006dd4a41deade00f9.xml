@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_19ff069c487be8006dd4a41deade00f9" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/src/Providers</compoundname>
+    <innerfile refid="_infinity_service_provider_8php">InfinityServiceProvider.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Providers/"/>
+  </compounddef>
+</doxygen>

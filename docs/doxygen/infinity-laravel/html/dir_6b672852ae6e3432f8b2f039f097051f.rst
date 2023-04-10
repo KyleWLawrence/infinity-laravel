@@ -1,0 +1,14 @@
+.. meta::f70d7d5b36d9edfd496881fba0622abef0f687b1d2ddad88b10d35dfe4bba074bb2259891874798f4f4b0c3140fe51c53e7d7d2434d2d188aec3e7d7fca89d02
+
+:orphan:
+
+.. title:: Infinity for Laravel: /Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data Directory Reference
+
+/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data Directory Reference
+==================================================================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_6b672852ae6e3432f8b2f039f097051f.html

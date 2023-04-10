@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Crud::Lists::References</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OriginalReferences</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references_1a4d9bb9d7d2a5a93554bf54f353f5c2f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\References::__construct</definition>
+        <argsstring>(array $apiObjects, protected ?string $board_id, protected $client=new InfinityService(),)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\References\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$apiObjects</declname>
+        </param>
+        <param>
+          <type>protected ?string</type>
+          <declname>$board_id</declname>
+        </param>
+        <param>
+          <type>protected</type>
+          <declname>$client</declname>
+          <defval>new <ref refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kindref="compound">InfinityService</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/References.php" line="13" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/References.php" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references_1a4ead118758d9ba582540c0891e0a533e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\References::getReferencedItems</definition>
+        <argsstring>(array|object $query, ?string $aid=null)</argsstring>
+        <name>getReferencedItems</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\References\getReferencedItems</qualifiedname>
+        <param>
+          <type>array|object</type>
+          <declname>$query</declname>
+        </param>
+        <param>
+          <type>?string</type>
+          <declname>$aid</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/References.php" line="21" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/References.php" bodystart="21" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Lists\References</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalReferences</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Lists\References</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalReferences</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/References.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/References.php" bodystart="10" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references_1a4d9bb9d7d2a5a93554bf54f353f5c2f1" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::References</scope><name>__construct</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_references_1a4ead118758d9ba582540c0891e0a533e" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::References</scope><name>getReferencedItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

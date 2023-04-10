@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_traits" kind="namespace" language="PHP">
+    <compoundname>KyleWLawrence::Infinity::Crud::Traits</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="src_2_crud_2_traits_2_defaults_8php_1a3a7d27d74aa8611a45631dd85b4ea847" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait KyleWLawrence::Infinity::Crud::Traits\Defaults</definition>
+        <argsstring></argsstring>
+        <name>Defaults</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Traits\Defaults</qualifiedname>
+        <initializer>{
+    use Delete</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This trait gives resources access to the default CRUD methods. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits/Defaults.php" line="8" column="7" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits/Defaults.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits/BuildChain.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

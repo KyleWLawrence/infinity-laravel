@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_boards_8php" kind="file" language="PHP">
+    <compoundname>Boards.php</compoundname>
+    <innerclass refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards" prot="public">Infinity::Api::Resources::Core::Boards</innerclass>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_resources_1_1_core">Infinity::Api::Resources::Core</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_create">Infinity::Api::Traits::Resource::Create</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_get">Infinity::Api::Traits::Resource::Get</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_traits_1_1_resource_1_1_get_all">Infinity::Api::Traits::Resource::GetAll</innernamespace>
+    <innernamespace refid="namespace_get_all">GetAll</innernamespace>
+    <innernamespace refid="namespace_get">Get</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Infinity\Api\Resources\Core;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract" kindref="compound">Infinity\Api\Resources\ResourceAbstract</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">use<sp/>Infinity\Api\Traits\Resource\Create;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">use<sp/>Infinity\Api\Traits\Resource\Get;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">use<sp/>Infinity\Api\Traits\Resource\GetAll;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">use<sp/>Infinity\Api\Traits\Utility\InstantiatorTrait;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards" kindref="compound">Boards</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract" kindref="compound">ResourceAbstract</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>InstantiatorTrait;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>GetAll;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>Get;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>use<sp/>Create;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards_1ae8287763033418dc05ba8421ec7e72e3" kindref="member">getValidSubResources</ref>():<sp/>array</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;attributes&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Attributes::class,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;folders&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Folders::class,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;hooks&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Hooks::class,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;items&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Items::class,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;references&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>References::class,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;views&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>Views::class,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="class_infinity_1_1_api_1_1_resources_1_1_core_1_1_boards_1a6cd7102d63dbc8ec9b7a71d0278f89dd" kindref="member">setUpRoutes</ref>():<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parent::setUpRoutes();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$this-&gt;<ref refid="class_infinity_1_1_api_1_1_resources_1_1_resource_abstract_1a07e3fb4ed9a934819aefca9504bda814" kindref="member">setRoutes</ref>([</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;getAll&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;boards&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;get&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;board/{id}&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;create&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&apos;boards&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/Boards.php"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Crud::Lists::Folders</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OriginalFolders</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders_1a2d2ab134be5dc821f70139b7b440c3f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\Folders::__construct</definition>
+        <argsstring>(array $apiObjects, protected ?string $board_id, protected $client=new InfinityService(),)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\Folders\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$apiObjects</declname>
+        </param>
+        <param>
+          <type>protected ?string</type>
+          <declname>$board_id</declname>
+        </param>
+        <param>
+          <type>protected</type>
+          <declname>$client</declname>
+          <defval>new <ref refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kindref="compound">InfinityService</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Folders.php" line="13" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Folders.php" bodystart="13" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Lists\Folders</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalFolders</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Lists\Folders</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalFolders</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Folders.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Folders.php" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_folders_1a2d2ab134be5dc821f70139b7b440c3f9" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::Folders</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

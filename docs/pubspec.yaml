@@ -1,0 +1,5 @@
+name: infinity_laravel
+dev_dependencies:
+  sass: ^1.61.0
+environment:
+  sdk: '^3.0.0-edge.042c3f6c76ab82ead5d61192ef0ed075aa0b394f'

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_infinity_1_1_data_1_1_lists_1_1_items" kind="class" language="PHP" prot="public">
+    <compoundname>Infinity::Data::Lists::Items</compoundname>
+    <basecompoundref refid="class_infinity_1_1_data_1_1_lists_1_1_list_base" prot="public" virt="non-virtual">Infinity\Data\Lists\ListBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_infinity_1_1_data_1_1_lists_1_1_items_1a277d87145573cb84fc6e424b8eecf56e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Infinity\Data\Lists\Items::$has_atts</definition>
+        <argsstring></argsstring>
+        <name>$has_atts</name>
+        <qualifiedname>Infinity\Data\Lists\Items\$has_atts</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="9" column="17" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_infinity_1_1_data_1_1_lists_1_1_items_1ac7786eb885359a88260795fdb35eea9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Data\Lists\Items::__construct</definition>
+        <argsstring>(array $apiObjects, public readonly string $board_id, array|object $attributes=null, protected $client=new InfinityService(),)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Infinity\Data\Lists\Items\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$apiObjects</declname>
+        </param>
+        <param>
+          <type>public readonly string</type>
+          <declname>$board_id</declname>
+        </param>
+        <param>
+          <type>array|object</type>
+          <declname>$attributes</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>protected</type>
+          <declname>$client</declname>
+          <defval>new InfinityService()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="11" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="11" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_data_1_1_lists_1_1_items_1a4770a5b5553e6063955ad180f6387316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Data\Lists\Items::findItemsByData</definition>
+        <argsstring>(array|bool|string $data, string $aid)</argsstring>
+        <name>findItemsByData</name>
+        <qualifiedname>Infinity\Data\Lists\Items\findItemsByData</qualifiedname>
+        <param>
+          <type>array|bool|string</type>
+          <declname>$data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$aid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="27" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="27" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_data_1_1_lists_1_1_items_1a0e2c1b048e6b414be4b671ca28eb17be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Data\Lists\Items::findItemsByLabelName</definition>
+        <argsstring>(string $name, string $aid)</argsstring>
+        <name>findItemsByLabelName</name>
+        <qualifiedname>Infinity\Data\Lists\Items\findItemsByLabelName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$aid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="49" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="49" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_data_1_1_lists_1_1_items_1adf94bf7ee1b06ed0ee2129634f207a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Data\Lists\Items::assignAttsToItems</definition>
+        <argsstring>(array $apiObjects, array $atts)</argsstring>
+        <name>assignAttsToItems</name>
+        <qualifiedname>Infinity\Data\Lists\Items\assignAttsToItems</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$apiObjects</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$atts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="71" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_data_1_1_lists_1_1_items_1ac42b33264dfda063ce453d5758184dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Data\Lists\Items::assignAttsToValues</definition>
+        <argsstring>(array $values, array $atts)</argsstring>
+        <name>assignAttsToValues</name>
+        <qualifiedname>Infinity\Data\Lists\Items\assignAttsToValues</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$values</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$atts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="84" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="84" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ArrayAccess</label>
+      </node>
+      <node id="2">
+        <label>Infinity\Data\Lists\ListBase</label>
+        <link refid="class_infinity_1_1_data_1_1_lists_1_1_list_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Infinity\Data\Lists\Items</label>
+        <link refid="class_infinity_1_1_data_1_1_lists_1_1_items"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayAccess</label>
+      </node>
+      <node id="2">
+        <label>Infinity\Data\Lists\ListBase</label>
+        <link refid="class_infinity_1_1_data_1_1_lists_1_1_list_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Infinity\Data\Lists\Items</label>
+        <link refid="class_infinity_1_1_data_1_1_lists_1_1_items"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" line="7" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists/ListItems.php" bodystart="8" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1a277d87145573cb84fc6e424b8eecf56e" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>$has_atts</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a1420c091e1d05af2707213f7f17b9c8e" prot="protected" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>$list</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1ac7786eb885359a88260795fdb35eea9e" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>__construct</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1ab5c11582eb41a7c9bfeeab186329fdab" prot="public" virt="non-virtual" ambiguityscope="Infinity::Data::Lists::ListBase::"><scope>Infinity::Data::Lists::Items</scope><name>__construct</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1adf94bf7ee1b06ed0ee2129634f207a7b" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>assignAttsToItems</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1ac42b33264dfda063ce453d5758184dd6" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>assignAttsToValues</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1a4770a5b5553e6063955ad180f6387316" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>findItemsByData</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_items_1a0e2c1b048e6b414be4b671ca28eb17be" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>findItemsByLabelName</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a5917965257db0f34e91352296d80de27" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>getById</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1aa6d92de891427a041ef5382a151dd396" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>offsetExists</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1ac1a1342418d08543afe80b2d578b4171" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>offsetGet</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1aa67814c5b017a94fa61e00468f0dc309" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>offsetSet</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a721942586a9fa1d0ccd3fb18f23f7dbd" prot="public" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>offsetUnset</name></member>
+      <member refid="class_infinity_1_1_data_1_1_lists_1_1_list_base_1a658c5adc84caac38b2454e5efbfdd0e1" prot="protected" virt="non-virtual"><scope>Infinity::Data::Lists::Items</scope><name>setObjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

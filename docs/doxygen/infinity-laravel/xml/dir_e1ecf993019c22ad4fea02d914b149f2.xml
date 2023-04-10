@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_e1ecf993019c22ad4fea02d914b149f2" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core</compoundname>
+    <innerfile refid="_attachments_8php">Attachments.php</innerfile>
+    <innerfile refid="_attribues_8php">Attribues.php</innerfile>
+    <innerfile refid="_boards_8php">Boards.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_folders_8php">Folders.php</innerfile>
+    <innerfile refid="_hooks_8php">Hooks.php</innerfile>
+    <innerfile refid="_item_comments_8php">ItemComments.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_items_8php">Items.php</innerfile>
+    <innerfile refid="_item_values_8php">ItemValues.php</innerfile>
+    <innerfile refid="_profile_8php">Profile.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_references_8php">References.php</innerfile>
+    <innerfile refid="_users_8php">Users.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_resources_2_core_2_views_8php">Views.php</innerfile>
+    <innerfile refid="_workspaces_8php">Workspaces.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Resources/Core/"/>
+  </compounddef>
+</doxygen>

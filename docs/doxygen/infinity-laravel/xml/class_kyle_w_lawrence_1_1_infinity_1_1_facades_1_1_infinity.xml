@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Facades::Infinity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Facade</basecompoundref>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity_1a592fb3a9a0cea7fce73891183aadfb8e" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static KyleWLawrence\Infinity\Facades\Infinity::getFacadeAccessor</definition>
+        <argsstring>()</argsstring>
+        <name>getFacadeAccessor</name>
+        <qualifiedname>KyleWLawrence\Infinity\Facades\Infinity\getFacadeAccessor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return facade accessor.</para>
+<para><simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Facades/Infinity.php" line="17" column="31" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Facades/Infinity.php" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>@mixin \Infinity\Api\HttpClient </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Facade</label>
+      </node>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Facades\Infinity</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Facade</label>
+      </node>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Facades\Infinity</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Facades/Infinity.php" line="10" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Facades/Infinity.php" bodystart="11" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_facades_1_1_infinity_1a592fb3a9a0cea7fce73891183aadfb8e" prot="protected" virt="non-virtual"><scope>KyleWLawrence::Infinity::Facades::Infinity</scope><name>getFacadeAccessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

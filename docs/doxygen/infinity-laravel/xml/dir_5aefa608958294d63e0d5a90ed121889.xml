@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_5aefa608958294d63e0d5a90ed121889" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Exceptions</compoundname>
+    <innerfile refid="_deleted_object_exception_8php">DeletedObjectException.php</innerfile>
+    <innerfile refid="_unknown_object_exception_8php">UnknownObjectException.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Exceptions/"/>
+  </compounddef>
+</doxygen>

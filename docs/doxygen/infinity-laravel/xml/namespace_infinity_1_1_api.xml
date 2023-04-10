@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_infinity_1_1_api" kind="namespace" language="PHP">
+    <compoundname>Infinity::Api</compoundname>
+    <innerclass refid="class_infinity_1_1_api_1_1_debug" prot="public">Infinity::Api::Debug</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_http" prot="public">Infinity::Api::Http</innerclass>
+    <innerclass refid="class_infinity_1_1_api_1_1_http_client" prot="public">Infinity::Api::HttpClient</innerclass>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_exceptions">Infinity::Api::Exceptions</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_middleware">Infinity::Api::Middleware</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_resources">Infinity::Api::Resources</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_traits">Infinity::Api::Traits</innernamespace>
+    <innernamespace refid="namespace_infinity_1_1_api_1_1_utilities">Infinity::Api::Utilities</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Debug.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

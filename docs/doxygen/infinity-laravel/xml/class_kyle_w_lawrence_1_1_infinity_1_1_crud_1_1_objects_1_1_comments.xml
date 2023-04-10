@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Crud::Objects::Comments</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OriginalComments</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments_1a190ccddff638015a854b7412a781bd54" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string KyleWLawrence\Infinity\Crud\Objects\Comments::$parent_resource_id_key</definition>
+        <argsstring></argsstring>
+        <name>$parent_resource_id_key</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\Comments\$parent_resource_id_key</qualifiedname>
+        <initializer>= &apos;items&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/Comments.php" line="13" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/Comments.php" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments_1a19acabebf6161b34042dee2e1db51f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Objects\Comments::__construct</definition>
+        <argsstring>(object $apiObject, string $board_id, protected string $parent_resource_id, protected $client=new InfinityService(),)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\Comments\__construct</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>$apiObject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$board_id</declname>
+        </param>
+        <param>
+          <type>protected string</type>
+          <declname>$parent_resource_id</declname>
+        </param>
+        <param>
+          <type>protected</type>
+          <declname>$client</declname>
+          <defval>new <ref refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kindref="compound">InfinityService</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/Comments.php" line="15" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/Comments.php" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Objects\Comments</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalComments</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Objects\Comments</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalComments</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/Comments.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/Comments.php" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments_1a190ccddff638015a854b7412a781bd54" prot="protected" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::Comments</scope><name>$parent_resource_id_key</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_comments_1a19acabebf6161b34042dee2e1db51f7c" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::Comments</scope><name>__construct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher" kind="class" language="PHP" prot="public">
+    <compoundname>Infinity::Console::Matchers::SubResourceMatcher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AbstractContextAwareMatcher</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1aca0f5b0af1f8720b1e4d85cc11ea68e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Console\Matchers\SubResourceMatcher::getMatches</definition>
+        <argsstring>(array $tokens, array $info=[])</argsstring>
+        <name>getMatches</name>
+        <qualifiedname>Infinity\Console\Matchers\SubResourceMatcher\getMatches</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$tokens</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$info</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Provide tab completion matches for readline input.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$tokens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information substracted with get_token_all </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>readline_info object </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array The matches resulting from the query </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" line="18" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" bodystart="18" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1a1e4f5fa5a99a7c825e21533998c80fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Console\Matchers\SubResourceMatcher::hasMatched</definition>
+        <argsstring>(array $tokens)</argsstring>
+        <name>hasMatched</name>
+        <qualifiedname>Infinity\Console\Matchers\SubResourceMatcher\hasMatched</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$tokens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{} </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" line="55" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" bodystart="55" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1ab43886be5aca5dd9bb3752ac637b69c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Console\Matchers\SubResourceMatcher::methodAttributeMatcher</definition>
+        <argsstring>($object, $input=&apos;&apos;)</argsstring>
+        <name>methodAttributeMatcher</name>
+        <qualifiedname>Infinity\Console\Matchers\SubResourceMatcher\methodAttributeMatcher</qualifiedname>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <declname>$input</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Look for methods and attributes whose name matches $input</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object to look for methods and attribute that matches $input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string to compare on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array of method and attribute names that match $input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" line="76" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1a09d750cbfa0af5f754d65e55e564a7d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Console\Matchers\SubResourceMatcher::methodMatcher</definition>
+        <argsstring>($object, $input=&apos;&apos;)</argsstring>
+        <name>methodMatcher</name>
+        <qualifiedname>Infinity\Console\Matchers\SubResourceMatcher\methodMatcher</qualifiedname>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <declname>$input</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Look for methods whose name matches $input. Also treats the return of $object-&gt;getValidSubResources() as a source of methods to compare to.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to look for methods that matches $input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to compare on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array $methods of method names that match $input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" line="89" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" bodystart="89" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1aa8bee6985d7d1c3f8bbf8565b57423a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Console\Matchers\SubResourceMatcher::attributeMatcher</definition>
+        <argsstring>($object, $input=&apos;&apos;)</argsstring>
+        <name>attributeMatcher</name>
+        <qualifiedname>Infinity\Console\Matchers\SubResourceMatcher\attributeMatcher</qualifiedname>
+        <param>
+          <declname>$object</declname>
+        </param>
+        <param>
+          <declname>$input</declname>
+          <defval>&apos;&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Look for attributes whose name matches $input</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$object</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object to look for attributes that matches $input </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string to compare on </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array $attributes of attribute names that match $input </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" line="116" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" bodystart="116" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Infinity\Console\Matchers\SubResourceMatcher</label>
+        <link refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractContextAwareMatcher</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Infinity\Console\Matchers\SubResourceMatcher</label>
+        <link refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractContextAwareMatcher</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/console/Matchers/SubResourceMatcher.php" bodystart="10" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1aa8bee6985d7d1c3f8bbf8565b57423a9" prot="private" virt="non-virtual"><scope>Infinity::Console::Matchers::SubResourceMatcher</scope><name>attributeMatcher</name></member>
+      <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1aca0f5b0af1f8720b1e4d85cc11ea68e6" prot="public" virt="non-virtual"><scope>Infinity::Console::Matchers::SubResourceMatcher</scope><name>getMatches</name></member>
+      <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1a1e4f5fa5a99a7c825e21533998c80fd2" prot="public" virt="non-virtual"><scope>Infinity::Console::Matchers::SubResourceMatcher</scope><name>hasMatched</name></member>
+      <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1ab43886be5aca5dd9bb3752ac637b69c2" prot="private" virt="non-virtual"><scope>Infinity::Console::Matchers::SubResourceMatcher</scope><name>methodAttributeMatcher</name></member>
+      <member refid="class_infinity_1_1_console_1_1_matchers_1_1_sub_resource_matcher_1a09d750cbfa0af5f754d65e55e564a7d2" prot="private" virt="non-virtual"><scope>Infinity::Console::Matchers::SubResourceMatcher</scope><name>methodMatcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

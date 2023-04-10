@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_fe1ff0871e9ce66119f6e7d19c28891a" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Objects</compoundname>
+    <innerdir refid="dir_e3662be6410cf4d6d95ed43a6670b7f1">/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Objects/ItemValue</innerdir>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_attribute_8php">Attribute.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_attribute_label_8php">AttributeLabel.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_item_8php">Item.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_object_base_8php">ObjectBase.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_objects_2_view_8php">View.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Objects/"/>
+  </compounddef>
+</doxygen>

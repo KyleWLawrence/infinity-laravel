@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_f1bdef2e72e3151a23dfcb7d16f07e17" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence</compoundname>
+    <innerdir refid="dir_2ffd6a2e53fe65c0372248d5dfd11068">/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/"/>
+  </compounddef>
+</doxygen>

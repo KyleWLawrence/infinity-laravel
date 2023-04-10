@@ -1,0 +1,14 @@
+.. meta::c4dc125c3b9d593ac19b0de6c8c8e7192d1914fa5fc0bda3aaff17e9403dbabc0317d5e5a6c129733b6ebeae369eaa77d6c0b854652fab1e83124c6094d3cf8e
+
+:orphan:
+
+.. title:: Infinity for Laravel: /Volumes/Sites/packages/infinity-laravel/src/Crud/Objects Directory Reference
+
+/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects Directory Reference
+=============================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_34520ad582368dc9b4993292f88479b7.html

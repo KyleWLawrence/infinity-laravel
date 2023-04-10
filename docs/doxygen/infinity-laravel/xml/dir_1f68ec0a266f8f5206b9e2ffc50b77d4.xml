@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_1f68ec0a266f8f5206b9e2ffc50b77d4" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/src/Crud</compoundname>
+    <innerdir refid="dir_98785adfca59200b1a91b359527e64af">/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists</innerdir>
+    <innerdir refid="dir_34520ad582368dc9b4993292f88479b7">/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects</innerdir>
+    <innerdir refid="dir_407c2e550eb7f54effe638c17eec3224">/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits</innerdir>
+    <innerfile refid="src_2_crud_2_helpers_8php">Helpers.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/"/>
+  </compounddef>
+</doxygen>

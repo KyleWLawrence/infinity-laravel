@@ -1,0 +1,14 @@
+.. meta::86a317ff89481a1fd45c332d85bf52ee2a6d8e43e0f2cf8dfa01d2eff4518c5a5fe5688bbb76ce5fdc8a3448be868bfe2c71484fac1b2563a13991e301e997a8
+
+:orphan:
+
+.. title:: Infinity for Laravel: /Volumes/Sites/packages/infinity-laravel/src/Crud/Traits Directory Reference
+
+/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits Directory Reference
+============================================================================
+
+.. container:: doxygen-content
+
+   
+   .. raw:: html
+     :file: dir_407c2e550eb7f54effe638c17eec3224.html

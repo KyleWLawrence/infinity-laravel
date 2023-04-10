@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_infinity_1_1_api_1_1_traits_1_1_utility" kind="namespace" language="PHP">
+    <compoundname>Infinity::Api::Traits::Utility</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_chained_parameters_trait_8php_1a818a2f397ce566da3442967450190496" prot="public" static="no" mutable="no">
+        <type>trait</type>
+        <definition>trait Infinity::Api::Traits::Utility\ChainedParametersTrait</definition>
+        <argsstring></argsstring>
+        <name>ChainedParametersTrait</name>
+        <qualifiedname>Infinity\Api\Traits\Utility\ChainedParametersTrait</qualifiedname>
+        <initializer>{
+    
+    protected $chainedParameters = []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The chained parameters trait which has helper methods for getting the parameters passed through chaining. An example would be a call <computeroutput>$client-&gt;ticket(2)-&gt;comments(3)-&gt;author();</computeroutput> would create an Author object with chained parameters (An Array): [ &apos;Infinity\Api\Tickets&apos; =&gt; 2, &apos;Infinity\Api\Comments&apos; =&gt; 3 ] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="14" column="7" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_chained_parameters_trait_8php_1ae8ccc9481428b47e0af660a49c02b084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Traits\Utility\getChainedParameter</definition>
+        <argsstring>($name, $default=null)</argsstring>
+        <name>getChainedParameter</name>
+        <qualifiedname>Infinity\Api\Traits\Utility\getChainedParameter</qualifiedname>
+        <param>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <declname>$default</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the named chained parameter</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>null</parametertype>
+<parametername>$default</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="28" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="_chained_parameters_trait_8php_1ac641d29b12d7ce0abbb121e833a9d6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Traits\Utility\getChainedParameters</definition>
+        <argsstring>()</argsstring>
+        <name>getChainedParameters</name>
+        <qualifiedname>Infinity\Api\Traits\Utility\getChainedParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns chained parameters</para>
+<para><simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="43" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="_chained_parameters_trait_8php_1a69910384b95e5601692c73f127c78367" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Traits\Utility\setChainedParameters</definition>
+        <argsstring>($params)</argsstring>
+        <name>setChainedParameters</name>
+        <qualifiedname>Infinity\Api\Traits\Utility\setChainedParameters</qualifiedname>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the chained parameters</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$this </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="54" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" bodystart="54" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="_chained_parameters_trait_8php_1ab0c557e5ef5c0a558b9abc751b7beea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Traits\Utility\addChainedParametersToParams</definition>
+        <argsstring>($params, $map)</argsstring>
+        <name>addChainedParametersToParams</name>
+        <qualifiedname>Infinity\Api\Traits\Utility\addChainedParametersToParams</qualifiedname>
+        <param>
+          <declname>$params</declname>
+        </param>
+        <param>
+          <declname>$map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A helper method to add the chained parameters to the existing parameters.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The existing parameters </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array describing what parameter key corresponds to which classId e.g. [&apos;ticket_id&apos; =&gt; &apos;Infinity\Api\Ticket&apos;] normal usage would be [&apos;id&apos; =&gt; $this::class] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="70" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" bodystart="70" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="_chained_parameters_trait_8php_1af2d5cfeb0ccf454622ee6a0e982fe10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Traits\Utility\getLatestChainedParameter</definition>
+        <argsstring>($excludes=[])</argsstring>
+        <name>getLatestChainedParameter</name>
+        <qualifiedname>Infinity\Api\Traits\Utility\getLatestChainedParameter</qualifiedname>
+        <param>
+          <declname>$excludes</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the named chained parameter</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$excludes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pass an array of classnames to exclude from query </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="88" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" bodystart="88" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/ChainedParametersTrait.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

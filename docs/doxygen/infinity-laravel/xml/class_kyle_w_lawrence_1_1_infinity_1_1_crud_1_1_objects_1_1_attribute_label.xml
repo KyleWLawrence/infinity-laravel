@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OriginalAttributeLabel</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a946e2bc6aeaa18ceef4a3ec71c79d256" prot="protected" static="no" mutable="no">
+        <type>array</type>
+        <definition>array KyleWLawrence\Infinity\Crud\Objects\AttributeLabel::$label_map</definition>
+        <argsstring></argsstring>
+        <name>$label_map</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel\$label_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="14" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ab2ed16f99a5f5ec3de41872ec4a3d0eb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel::setObjectVars</definition>
+        <argsstring>(object $apiObject)</argsstring>
+        <name>setObjectVars</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel\setObjectVars</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>$apiObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="16" column="24" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a40148035406d3ab2c27dc55707d997cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel::createOrGetLabelIdBySet</definition>
+        <argsstring>(array $set)</argsstring>
+        <name>createOrGetLabelIdBySet</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel\createOrGetLabelIdBySet</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="23" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a862cafbfe3667e897de8ad2e38516d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel::createLabel</definition>
+        <argsstring>(string $name, ?string $color=null)</argsstring>
+        <name>createLabel</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel\createLabel</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <type>?string</type>
+          <declname>$color</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="31" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ac11ededcb68cad553abbf5f590f42064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel::updateLabelName</definition>
+        <argsstring>(string $name, string $id)</argsstring>
+        <name>updateLabelName</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel\updateLabelName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>$id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="39" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ace0873c29852f6a232c4b6f60efe5a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel::createOrGetLabelId</definition>
+        <argsstring>(string $name)</argsstring>
+        <name>createOrGetLabelId</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel\createOrGetLabelId</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>$name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="45" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="45" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalAttributeLabel</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Objects\AttributeLabel</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalAttributeLabel</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Objects/AttributeLabel.php" bodystart="10" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a946e2bc6aeaa18ceef4a3ec71c79d256" prot="protected" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</scope><name>$label_map</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a862cafbfe3667e897de8ad2e38516d8b" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</scope><name>createLabel</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ace0873c29852f6a232c4b6f60efe5a39" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</scope><name>createOrGetLabelId</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1a40148035406d3ab2c27dc55707d997cf" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</scope><name>createOrGetLabelIdBySet</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ab2ed16f99a5f5ec3de41872ec4a3d0eb" prot="protected" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</scope><name>setObjectVars</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_objects_1_1_attribute_label_1ac11ededcb68cad553abbf5f590f42064" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Objects::AttributeLabel</scope><name>updateLabelName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

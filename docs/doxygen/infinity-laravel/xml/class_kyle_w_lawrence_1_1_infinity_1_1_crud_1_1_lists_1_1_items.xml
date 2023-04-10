@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items" kind="class" language="PHP" prot="public">
+    <compoundname>KyleWLawrence::Infinity::Crud::Lists::Items</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">OriginalItems</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a4d95174870f980a078b039777c9b589e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\Items::__construct</definition>
+        <argsstring>(array $apiObjects, protected ?string $board_id, public ?array $attributes=null, protected $client=new InfinityService(),)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\Items\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$apiObjects</declname>
+        </param>
+        <param>
+          <type>protected ?string</type>
+          <declname>$board_id</declname>
+        </param>
+        <param>
+          <type>public ?array</type>
+          <declname>$attributes</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>protected</type>
+          <declname>$client</declname>
+          <defval>new <ref refid="class_kyle_w_lawrence_1_1_infinity_1_1_services_1_1_infinity_service" kindref="compound">InfinityService</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" line="14" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" bodystart="14" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a97de06d1dbcb81a35da6ec2db594d9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\Items::deleteInFolder</definition>
+        <argsstring>(?string $fid=null)</argsstring>
+        <name>deleteInFolder</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\Items\deleteInFolder</qualifiedname>
+        <param>
+          <type>?string</type>
+          <declname>$fid</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" line="23" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" bodystart="23" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1af9c0046591daf2f0d96c347e806b571b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\Items::getDupeByAtts</definition>
+        <argsstring>($aids, $return=&apos;obj&apos;)</argsstring>
+        <name>getDupeByAtts</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\Items\getDupeByAtts</qualifiedname>
+        <param>
+          <declname>$aids</declname>
+        </param>
+        <param>
+          <declname>$return</declname>
+          <defval>&apos;obj&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" line="37" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" bodystart="37" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a6884daaaacad54c3b9e90a0a870efbaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KyleWLawrence\Infinity\Crud\Lists\Items::moveToFolder</definition>
+        <argsstring>($fid)</argsstring>
+        <name>moveToFolder</name>
+        <qualifiedname>KyleWLawrence\Infinity\Crud\Lists\Items\moveToFolder</qualifiedname>
+        <param>
+          <declname>$fid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" line="82" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" bodystart="82" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Lists\Items</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalItems</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>KyleWLawrence\Infinity\Crud\Lists\Items</label>
+        <link refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OriginalItems</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" line="10" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Items.php" bodystart="11" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a4d95174870f980a078b039777c9b589e" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::Items</scope><name>__construct</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a97de06d1dbcb81a35da6ec2db594d9f6" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::Items</scope><name>deleteInFolder</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1af9c0046591daf2f0d96c347e806b571b" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::Items</scope><name>getDupeByAtts</name></member>
+      <member refid="class_kyle_w_lawrence_1_1_infinity_1_1_crud_1_1_lists_1_1_items_1a6884daaaacad54c3b9e90a0a870efbaf" prot="public" virt="non-virtual"><scope>KyleWLawrence::Infinity::Crud::Lists::Items</scope><name>moveToFolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

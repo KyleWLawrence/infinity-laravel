@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_infinity_1_1_data_1_1_exceptions_1_1_deleted_object_exception" kind="class" language="PHP" prot="public">
+    <compoundname>Infinity::Data::Exceptions::DeletedObjectException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Infinity\Data\Exceptions\DeletedObjectException</label>
+        <link refid="class_infinity_1_1_data_1_1_exceptions_1_1_deleted_object_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Infinity\Data\Exceptions\DeletedObjectException</label>
+        <link refid="class_infinity_1_1_data_1_1_exceptions_1_1_deleted_object_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Exceptions/DeletedObjectException.php" line="5" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Exceptions/DeletedObjectException.php" bodystart="6" bodyend="7"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

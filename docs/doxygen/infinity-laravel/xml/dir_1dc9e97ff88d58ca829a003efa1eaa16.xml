@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_1dc9e97ff88d58ca829a003efa1eaa16" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility</compoundname>
+    <innerfile refid="_chained_parameters_trait_8php">ChainedParametersTrait.php</innerfile>
+    <innerfile refid="_instantiator_trait_8php">InstantiatorTrait.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Utility/"/>
+  </compounddef>
+</doxygen>

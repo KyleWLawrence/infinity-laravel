@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_407c2e550eb7f54effe638c17eec3224" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits</compoundname>
+    <innerfile refid="_build_chain_8php">BuildChain.php</innerfile>
+    <innerfile refid="_construct_8php">Construct.php</innerfile>
+    <innerfile refid="src_2_crud_2_traits_2_create_8php">Create.php</innerfile>
+    <innerfile refid="src_2_crud_2_traits_2_defaults_8php">Defaults.php</innerfile>
+    <innerfile refid="src_2_crud_2_traits_2_delete_8php">Delete.php</innerfile>
+    <innerfile refid="src_2_crud_2_traits_2_update_8php">Update.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Traits/"/>
+  </compounddef>
+</doxygen>

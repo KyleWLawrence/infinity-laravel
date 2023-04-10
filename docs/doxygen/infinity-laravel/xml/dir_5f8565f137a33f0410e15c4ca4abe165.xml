@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_5f8565f137a33f0410e15c4ca4abe165" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Traits</compoundname>
+    <innerfile refid="src_2_crud_2_lists_2_traits_2_delete_8php">Delete.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/src/Crud/Lists/Traits/"/>
+  </compounddef>
+</doxygen>

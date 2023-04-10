@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler" kind="class" language="PHP" prot="public">
+    <compoundname>Infinity::Api::Middleware::RetryHandler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1aa3e9ebb7c1dce689094bdacce3a95358" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::$timeoutCodes</definition>
+        <argsstring></argsstring>
+        <name>$timeoutCodes</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\$timeoutCodes</qualifiedname>
+        <initializer>= [408, 419, 504]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="14" column="13" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a959ae4eecf1b4e8e38ff99eca9813686" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::$options</definition>
+        <argsstring></argsstring>
+        <name>$options</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\$options</qualifiedname>
+        <initializer>= [
+        &apos;max&apos; =&gt; 2, 
+        &apos;interval&apos; =&gt; 300, 
+        &apos;max_interval&apos; =&gt; 20000, 
+        &apos;backoff_factor&apos; =&gt; 1, 
+        &apos;exceptions&apos; =&gt; [ConnectException::class], 
+        &apos;retry_if&apos; =&gt; null, 
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="16" column="13" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1ad868c679eceec662fcbff28d28ff766e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::__construct</definition>
+        <argsstring>(array $config=[])</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\__construct</qualifiedname>
+        <param>
+          <type>array</type>
+          <declname>$config</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RetryHandler constructor.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="30" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a0cd2df6b796a0600f74af911de1ff70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::shouldRetryRequest</definition>
+        <argsstring>()</argsstring>
+        <name>shouldRetryRequest</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\shouldRetryRequest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the function that will decide whether to retry the request or not.</para>
+<para><simplesect kind="return"><para>callable </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="40" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a35f3c5a0c2d61042bace9b456c0932a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::delay</definition>
+        <argsstring>()</argsstring>
+        <name>delay</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\delay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the function that computes the delay before the next retry</para>
+<para><simplesect kind="return"><para>callable </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="60" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a0c8b875decff839ace730e5788feb9ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::__invoke</definition>
+        <argsstring>(callable $handler)</argsstring>
+        <name>__invoke</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\__invoke</qualifiedname>
+        <param>
+          <type>callable</type>
+          <declname>$handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called when the middleware is handled by the client.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>callable</parametertype>
+<parametername>$handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>RetryMiddleware </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="76" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="76" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a5b84c5fa9b9cb68c3b58eaee255c5c0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\Middleware\RetryHandler::isRetryableException</definition>
+        <argsstring>($exception)</argsstring>
+        <name>isRetryableException</name>
+        <qualifiedname>Infinity\Api\Middleware\RetryHandler\isRetryableException</qualifiedname>
+        <param>
+          <declname>$exception</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the exception thrown warrants a retry</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$exception</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="89" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="89" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" line="9" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Middleware/RetryHandler.php" bodystart="10" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a959ae4eecf1b4e8e38ff99eca9813686" prot="private" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>$options</name></member>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1aa3e9ebb7c1dce689094bdacce3a95358" prot="private" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>$timeoutCodes</name></member>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1ad868c679eceec662fcbff28d28ff766e" prot="public" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>__construct</name></member>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a0c8b875decff839ace730e5788feb9ed" prot="public" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>__invoke</name></member>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a35f3c5a0c2d61042bace9b456c0932a8" prot="public" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>delay</name></member>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a5b84c5fa9b9cb68c3b58eaee255c5c0f" prot="private" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>isRetryableException</name></member>
+      <member refid="class_infinity_1_1_api_1_1_middleware_1_1_retry_handler_1a0cd2df6b796a0600f74af911de1ff70a" prot="public" virt="non-virtual"><scope>Infinity::Api::Middleware::RetryHandler</scope><name>shouldRetryRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

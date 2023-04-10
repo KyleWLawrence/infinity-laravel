@@ -177,7 +177,7 @@ class Item extends OriginalItem
     {
         if (! isset($this->atttributes[$aid])) {
             $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data;
-            $this->resetAttributes($atts);
+            $this->setAttributes($atts);
         }
 
         return $this;
@@ -186,7 +186,7 @@ class Item extends OriginalItem
     public function retrieveAtts(): object
     {
         $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data;
-        $this->resetAttributes($atts);
+        $this->setAttributes($atts);
 
         return $this;
     }

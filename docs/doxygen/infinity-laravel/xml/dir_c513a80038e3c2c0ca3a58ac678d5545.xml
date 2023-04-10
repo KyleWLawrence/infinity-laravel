@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_c513a80038e3c2c0ca3a58ac678d5545" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Resource</compoundname>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_create_8php">Create.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_defaults_8php">Defaults.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_delete_8php">Delete.php</innerfile>
+    <innerfile refid="_get_8php">Get.php</innerfile>
+    <innerfile refid="_get_all_8php">GetAll.php</innerfile>
+    <innerfile refid="_resource_name_8php">ResourceName.php</innerfile>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2api_2_traits_2_resource_2_update_8php">Update.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/Traits/Resource/"/>
+  </compounddef>
+</doxygen>

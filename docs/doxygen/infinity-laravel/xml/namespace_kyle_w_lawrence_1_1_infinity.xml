@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="namespace_kyle_w_lawrence_1_1_infinity" kind="namespace" language="PHP">
+    <compoundname>KyleWLawrence::Infinity</compoundname>
+    <innernamespace refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_crud">KyleWLawrence::Infinity::Crud</innernamespace>
+    <innernamespace refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_facades">KyleWLawrence::Infinity::Facades</innernamespace>
+    <innernamespace refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_providers">KyleWLawrence::Infinity::Providers</innernamespace>
+    <innernamespace refid="namespace_kyle_w_lawrence_1_1_infinity_1_1_services">KyleWLawrence::Infinity::Services</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

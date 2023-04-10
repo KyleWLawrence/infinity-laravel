@@ -1,0 +1,883 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_infinity_1_1_api_1_1_http_client" kind="class" language="PHP" prot="public">
+    <compoundname>Infinity::Api::HttpClient</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a1fce54d6341969766ed2592b021af171" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const Infinity\Api\HttpClient::VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <qualifiedname>Infinity\Api\HttpClient\VERSION</qualifiedname>
+        <initializer>= &apos;1.0.0&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="34" column="11" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a31183b31badbb2f676368e4311b19f65" prot="public" static="no" mutable="no">
+        <type>Client</type>
+        <definition>Client Infinity\Api\HttpClient::$guzzle</definition>
+        <argsstring></argsstring>
+        <name>$guzzle</name>
+        <qualifiedname>Infinity\Api\HttpClient\$guzzle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="76" column="19" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a12bde9e8fdfffb6c94242bf64bbe88fc" prot="private" static="no" mutable="no">
+        <type>array</type>
+        <definition>array Infinity\Api\HttpClient::$headers</definition>
+        <argsstring></argsstring>
+        <name>$headers</name>
+        <qualifiedname>Infinity\Api\HttpClient\$headers</qualifiedname>
+        <initializer>= []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="41" column="19" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1ae20e4231ca02beb5c70ca4816ede3c93" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_infinity_1_1_api_1_1_utilities_1_1_auth" kindref="compound">Auth</ref></type>
+        <definition>Auth Infinity\Api\HttpClient::$auth</definition>
+        <argsstring></argsstring>
+        <name>$auth</name>
+        <qualifiedname>Infinity\Api\HttpClient\$auth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="46" column="20" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1adbd12f792a282b7853c3047cdcbfcabb" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Infinity\Api\HttpClient::$scheme</definition>
+        <argsstring></argsstring>
+        <name>$scheme</name>
+        <qualifiedname>Infinity\Api\HttpClient\$scheme</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="51" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a4e25a86923a08175e63e5e3f7409dc91" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Infinity\Api\HttpClient::$hostname</definition>
+        <argsstring></argsstring>
+        <name>$hostname</name>
+        <qualifiedname>Infinity\Api\HttpClient\$hostname</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="56" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1ac8bb15bffc494629d1d70528d46b600b" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Infinity\Api\HttpClient::$apiUrl</definition>
+        <argsstring></argsstring>
+        <name>$apiUrl</name>
+        <qualifiedname>Infinity\Api\HttpClient\$apiUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="61" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a7797097541fa688ceb61d34018c43677" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Infinity\Api\HttpClient::$apiBasePath</definition>
+        <argsstring></argsstring>
+        <name>$apiBasePath</name>
+        <qualifiedname>Infinity\Api\HttpClient\$apiBasePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="66" column="22" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a4b39f7fa756dda79bc3f3f72abdfe81b" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_infinity_1_1_api_1_1_debug" kindref="compound">Debug</ref></type>
+        <definition>Debug Infinity\Api\HttpClient::$debug</definition>
+        <argsstring></argsstring>
+        <name>$debug</name>
+        <qualifiedname>Infinity\Api\HttpClient\$debug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="71" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_infinity_1_1_api_1_1_http_client_1a991a0fb934be244ff5bf20b32d3ae10a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Infinity\Api\HttpClient::$workspace</definition>
+        <argsstring></argsstring>
+        <name>$workspace</name>
+        <qualifiedname>Infinity\Api\HttpClient\$workspace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="78" column="19" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1aeacb34cd138c882d5786b2f17bfe2bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::__construct</definition>
+        <argsstring>( $workspace, $scheme=&apos;https&apos;, $hostname=&apos;app.startinfinity.com&apos;, $guzzle=null)</argsstring>
+        <name>__construct</name>
+        <qualifiedname>Infinity\Api\HttpClient\__construct</qualifiedname>
+        <param>
+          <declname>$workspace</declname>
+        </param>
+        <param>
+          <declname>$scheme</declname>
+          <defval>&apos;https&apos;</defval>
+        </param>
+        <param>
+          <declname>$hostname</declname>
+          <defval>&apos;app.startinfinity.com&apos;</defval>
+        </param>
+        <param>
+          <declname>$guzzle</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$scheme</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$hostname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>\GuzzleHttp\Client</parametertype>
+<parametername>$guzzle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="85" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="85" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a78db2cfc0823f2d7d1cdc17ca3525bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getAuth</definition>
+        <argsstring>()</argsstring>
+        <name>getAuth</name>
+        <qualifiedname>Infinity\Api\HttpClient\getAuth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Auth </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="127" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a739f203eb38332919f17d3cec9e1bc55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::setAuth</definition>
+        <argsstring>($strategy, array $options)</argsstring>
+        <name>setAuth</name>
+        <qualifiedname>Infinity\Api\HttpClient\setAuth</qualifiedname>
+        <param>
+          <declname>$strategy</declname>
+        </param>
+        <param>
+          <type>array</type>
+          <declname>$options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Configure the authorization method</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$strategy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>AuthException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="140" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1aae0799f775be5bda2eb0021fd8c0a94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getHeaders</definition>
+        <argsstring>()</argsstring>
+        <name>getHeaders</name>
+        <qualifiedname>Infinity\Api\HttpClient\getHeaders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="148" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1abe00202bbc9a359f26347dea9a249d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::setHeader</definition>
+        <argsstring>($key, $value)</argsstring>
+        <name>setHeader</name>
+        <qualifiedname>Infinity\Api\HttpClient\setHeader</qualifiedname>
+        <param>
+          <declname>$key</declname>
+        </param>
+        <param>
+          <declname>$value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the header to set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to set in the header </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>HttpClient </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="160" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a23df8d457435940b48f91a9054eae7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getUserAgent</definition>
+        <argsstring>()</argsstring>
+        <name>getUserAgent</name>
+        <qualifiedname>Infinity\Api\HttpClient\getUserAgent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the user agent string</para>
+<para><simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="172" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a3ed0399640e13e8cd1869c042dae0aab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getWorkspace</definition>
+        <argsstring>()</argsstring>
+        <name>getWorkspace</name>
+        <qualifiedname>Infinity\Api\HttpClient\getWorkspace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the supplied subdomain</para>
+<para><simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="182" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a8e14070a5077be945714f4173babb57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::setWorkspace</definition>
+        <argsstring>(int $workspace)</argsstring>
+        <name>setWorkspace</name>
+        <qualifiedname>Infinity\Api\HttpClient\setWorkspace</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>$workspace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the supplied subdomain</para>
+<para><simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="192" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a379530d463fb50de2071c1deae072267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getApiUrl</definition>
+        <argsstring>()</argsstring>
+        <name>getApiUrl</name>
+        <qualifiedname>Infinity\Api\HttpClient\getApiUrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the generated api URL</para>
+<para><simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="202" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1ae9b82682d4a8fb178817b87b892eaaa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::setApiBasePath</definition>
+        <argsstring>($apiBasePath)</argsstring>
+        <name>setApiBasePath</name>
+        <qualifiedname>Infinity\Api\HttpClient\setApiBasePath</qualifiedname>
+        <param>
+          <declname>$apiBasePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the api base path</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$apiBasePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="212" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="212" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a983dcc95a6982dcde07b844ef116804b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getApiBasePath</definition>
+        <argsstring>()</argsstring>
+        <name>getApiBasePath</name>
+        <qualifiedname>Infinity\Api\HttpClient\getApiBasePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the api base path</para>
+<para><simplesect kind="return"><para>string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="222" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a847640915573f7152ac7db4a05baee40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::setDebug</definition>
+        <argsstring>( $lastRequestHeaders, $lastRequestBody, $lastResponseCode, $lastResponseHeaders, $lastResponseError)</argsstring>
+        <name>setDebug</name>
+        <qualifiedname>Infinity\Api\HttpClient\setDebug</qualifiedname>
+        <param>
+          <declname>$lastRequestHeaders</declname>
+        </param>
+        <param>
+          <declname>$lastRequestBody</declname>
+        </param>
+        <param>
+          <declname>$lastResponseCode</declname>
+        </param>
+        <param>
+          <declname>$lastResponseHeaders</declname>
+        </param>
+        <param>
+          <declname>$lastResponseError</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set debug information as an object</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$lastRequestHeaders</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$lastRequestBody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$lastResponseCode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$lastResponseHeaders</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>mixed</parametertype>
+<parametername>$lastResponseError</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="236" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="236" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a9936d3ddd8ca7e32e25c80442df0ee32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::getDebug</definition>
+        <argsstring>()</argsstring>
+        <name>getDebug</name>
+        <qualifiedname>Infinity\Api\HttpClient\getDebug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns debug information in an object</para>
+<para><simplesect kind="return"><para>Debug </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="255" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a50682710b4cbd327c003a73ac935d1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::get</definition>
+        <argsstring>($endpoint, $queryParams=[])</argsstring>
+        <name>get</name>
+        <qualifiedname>Infinity\Api\HttpClient\get</qualifiedname>
+        <param>
+          <declname>$endpoint</declname>
+        </param>
+        <param>
+          <declname>$queryParams</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a helper method to do a get request.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$endpoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$queryParams</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\stdClass | null</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\AuthException <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\ApiResponseException </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="270" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="270" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1ac4f49c8da5d6a025e9d1aae73d8bcfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::post</definition>
+        <argsstring>($endpoint, $postData=[], $options=[])</argsstring>
+        <name>post</name>
+        <qualifiedname>Infinity\Api\HttpClient\post</qualifiedname>
+        <param>
+          <declname>$endpoint</declname>
+        </param>
+        <param>
+          <declname>$postData</declname>
+          <defval>[]</defval>
+        </param>
+        <param>
+          <declname>$options</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a helper method to do a post request.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$endpoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$postData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null|\stdClass</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\AuthException <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\ApiResponseException </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="292" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="292" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1abef3ffb4219fc5204d992a60dfe6c235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::put</definition>
+        <argsstring>($endpoint, $putData=[])</argsstring>
+        <name>put</name>
+        <qualifiedname>Infinity\Api\HttpClient\put</qualifiedname>
+        <param>
+          <declname>$endpoint</declname>
+        </param>
+        <param>
+          <declname>$putData</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a helper method to do a put request.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$endpoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$putData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>\stdClass | null</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\AuthException <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\ApiResponseException </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="318" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="318" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a48be1d945fc9814c85afa0676d722d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Infinity\Api\HttpClient::delete</definition>
+        <argsstring>($endpoint, $deleteData=[])</argsstring>
+        <name>delete</name>
+        <qualifiedname>Infinity\Api\HttpClient\delete</qualifiedname>
+        <param>
+          <declname>$endpoint</declname>
+        </param>
+        <param>
+          <declname>$deleteData</declname>
+          <defval>[]</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a helper method to do a delete request.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$endpoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>array</parametertype>
+<parametername>$endpoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null</para>
+</simplesect>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\AuthException <parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Infinity\Api\Exceptions\ApiResponseException </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="339" column="21" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="339" bodyend="348"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_infinity_1_1_api_1_1_http_client_1a30775c40ade54d58c263eda678cd0be6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static Infinity\Api\HttpClient::getValidSubResources</definition>
+        <argsstring>()</argsstring>
+        <name>getValidSubResources</name>
+        <qualifiedname>Infinity\Api\HttpClient\getValidSubResources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>{}</para>
+<para><simplesect kind="return"><para>array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="113" column="28" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="113" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Client class, base level access</para>
+<para>@method Boards boards() @method Profile profile() @method Workspaces workspaces() @method Attachments attachments() @method Users users() </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>Client</label>
+      </node>
+      <node id="3">
+        <label>Infinity\Api\Debug</label>
+        <link refid="class_infinity_1_1_api_1_1_debug"/>
+      </node>
+      <node id="2">
+        <label>Infinity\Api\Utilities\Auth</label>
+        <link refid="class_infinity_1_1_api_1_1_utilities_1_1_auth"/>
+      </node>
+      <node id="1">
+        <label>Infinity\Api\HttpClient</label>
+        <link refid="class_infinity_1_1_api_1_1_http_client"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>$auth</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>$debug</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>$guzzle</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" line="32" column="1" bodyfile="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/api/HttpClient.php" bodystart="33" bodyend="349"/>
+    <listofallmembers>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a7797097541fa688ceb61d34018c43677" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$apiBasePath</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1ac8bb15bffc494629d1d70528d46b600b" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$apiUrl</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1ae20e4231ca02beb5c70ca4816ede3c93" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$auth</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a4b39f7fa756dda79bc3f3f72abdfe81b" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$debug</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a31183b31badbb2f676368e4311b19f65" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$guzzle</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a12bde9e8fdfffb6c94242bf64bbe88fc" prot="private" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$headers</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a4e25a86923a08175e63e5e3f7409dc91" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$hostname</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1adbd12f792a282b7853c3047cdcbfcabb" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$scheme</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a991a0fb934be244ff5bf20b32d3ae10a" prot="protected" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>$workspace</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1aeacb34cd138c882d5786b2f17bfe2bfd" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>__construct</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a48be1d945fc9814c85afa0676d722d71" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>delete</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a50682710b4cbd327c003a73ac935d1ce" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>get</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a983dcc95a6982dcde07b844ef116804b" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getApiBasePath</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a379530d463fb50de2071c1deae072267" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getApiUrl</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a78db2cfc0823f2d7d1cdc17ca3525bf4" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getAuth</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a9936d3ddd8ca7e32e25c80442df0ee32" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getDebug</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1aae0799f775be5bda2eb0021fd8c0a94b" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getHeaders</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a23df8d457435940b48f91a9054eae7bf" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getUserAgent</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a30775c40ade54d58c263eda678cd0be6" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getValidSubResources</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a3ed0399640e13e8cd1869c042dae0aab" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>getWorkspace</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1ac4f49c8da5d6a025e9d1aae73d8bcfdb" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>post</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1abef3ffb4219fc5204d992a60dfe6c235" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>put</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1ae9b82682d4a8fb178817b87b892eaaa5" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>setApiBasePath</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a739f203eb38332919f17d3cec9e1bc55" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>setAuth</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a847640915573f7152ac7db4a05baee40" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>setDebug</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1abe00202bbc9a359f26347dea9a249d7a" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>setHeader</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a8e14070a5077be945714f4173babb57a" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>setWorkspace</name></member>
+      <member refid="class_infinity_1_1_api_1_1_http_client_1a1fce54d6341969766ed2592b021af171" prot="public" virt="non-virtual"><scope>Infinity::Api::HttpClient</scope><name>VERSION</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

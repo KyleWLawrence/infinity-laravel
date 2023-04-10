@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="dir_6b672852ae6e3432f8b2f039f097051f" kind="dir">
+    <compoundname>/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data</compoundname>
+    <innerdir refid="dir_5aefa608958294d63e0d5a90ed121889">/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Exceptions</innerdir>
+    <innerdir refid="dir_578cfaced456c1b808afb4463727ed34">/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Lists</innerdir>
+    <innerdir refid="dir_fe1ff0871e9ce66119f6e7d19c28891a">/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Objects</innerdir>
+    <innerdir refid="dir_ad808ee5d5da2f202f423b0102e127a9">/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/Traits</innerdir>
+    <innerfile refid="vendor_2kylewlawrence_2infinity-api-client-php_2src_2data_2_helpers_8php">Helpers.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Volumes/Sites/packages/infinity-laravel/vendor/kylewlawrence/infinity-api-client-php/src/data/"/>
+  </compounddef>
+</doxygen>
