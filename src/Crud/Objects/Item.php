@@ -2,6 +2,9 @@
 
 namespace KyleWLawrence\Infinity\Crud\Objects;
 
+use KyleWLawrence\Infinity\Crud\Objects\ItemValue\ValueBase;
+use KyleWLawrence\Infinity\Crud\Objects\ItemValue\ValueLabel;
+use KyleWLawrence\Infinity\Crud\Objects\ItemValue\ValueLink;
 use KyleWLawrence\Infinity\Crud\Traits\Defaults;
 use KyleWLawrence\Infinity\Data\Objects\Item as OriginalItem;
 use KyleWLawrence\Infinity\Services\InfinityService;
@@ -31,6 +34,27 @@ class Item extends OriginalItem
         ];
     }
 
+    public function convertInfValObj(object $val, string $type): object
+    {
+        if (get_class($val) !== 'stdClass') {
+            return $val;
+        }
+
+        switch($type) {
+            case 'links':
+                $val = new ValueLink($val);
+                break;
+            case 'label':
+                $val = new ValueLabel($val);
+                break;
+            default:
+                $val = new ValueBase($val);
+                break;
+        }
+
+        return $val;
+    }
+
     public function getUpdateValues(): array
     {
         $values = [];
@@ -43,18 +67,23 @@ class Item extends OriginalItem
         return $values;
     }
 
-    public function deleteValue($id): void
+    public function deleteValue($id): object
     {
         $this->client->boards($this->board_id)->items($this->id)->values($id)->delete();
+        $this->removeVal($id);
+
+        return $this;
     }
 
-    public function deleteEmptyValues(): void
+    public function deleteEmptyValues(): object
     {
         foreach ($this->getDeleteSet() as $id) {
             $this->deleteValue($id);
         }
 
         $this->unsetEmptyVals();
+
+        return $this;
     }
 
     public function update(): object

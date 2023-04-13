@@ -49,4 +49,14 @@ class AttributeLabel extends OriginalAttributeLabel
 
         return $id;
     }
+
+    public function createOrGetLabelIds(array $names): array
+    {
+        $ids = [];
+        foreach ($names as $name) {
+            $ids[] = $this->genOrGetLabelId($name);
+        }
+
+        return $ids;
+    }
 }
