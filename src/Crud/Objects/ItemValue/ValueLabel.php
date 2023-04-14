@@ -23,10 +23,10 @@ class ValueLabel extends OriginalValueLabel
          return $this;
      }
 
-     public function setLabelName(string $name, ?object &$att = null): object
+     public function setLabelName(?string $name, ?object &$att = null): object
      {
          $error = (is_object($att)) ? false : true;
-         $id = $this->getLabelId($name, $error, $att);
+         $id = (! $name) ? null : $this->getLabelId($name, $error, $att);
 
          return $this->setLabelId($id);
      }
