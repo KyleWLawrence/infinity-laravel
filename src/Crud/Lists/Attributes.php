@@ -72,7 +72,7 @@ class Attributes extends OriginalAttributes
         }
 
         $atts = [];
-        foreach ($atts as $att) {
+        foreach ($this->list as $att) {
             $similar = array_intersect($fids, $att->folder_ids);
 
             if (! empty($similar)) {
