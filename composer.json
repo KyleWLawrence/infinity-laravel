@@ -2,7 +2,7 @@
     "name": "kylewlawrence/infinity-laravel",
     "type": "library",
     "description": "Laravel wrapper for kylewlawrence/infinity-api-client-php package",
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "keywords": [
         "infinity",
         "laravel",
