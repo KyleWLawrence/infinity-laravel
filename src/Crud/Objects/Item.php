@@ -40,7 +40,7 @@ class Item extends OriginalItem
             return $val;
         }
 
-        switch($type) {
+        switch ($type) {
             case 'links':
                 $val = new ValueLink($val);
                 break;
@@ -145,11 +145,15 @@ class Item extends OriginalItem
     public function updateValToRef($val, $val_aid, $ref_aid, object &$items, object &$refs, $single = true)
     {
         $this->updateValOnRef($val, $val_aid, $ref_aid, $items, $refs, 'to_item_id', $single);
+
+        return $this;
     }
 
     public function updateValFromRef($val, $val_aid, $ref_aid, object &$items, object &$refs, $single = true)
     {
         $this->updateValOnRef($val, $val_aid, $ref_aid, $items, $refs, 'from_item_id', $single);
+
+        return $this;
     }
 
     public function updateValOnRef($val, $val_aid, $ref_aid, object &$items, object &$refs, $dir, $single = true)
@@ -171,31 +175,32 @@ class Item extends OriginalItem
 
     public function getValFromRef($val_aid, $ref_aid, object &$items, object &$refs, $single = true)
     {
-        $this->getValOnRef($val_aid, $ref_aid, $items, $refs, 'from_item_id', $single);
+        return $this->getValOnRef($val_aid, $ref_aid, $items, $refs, 'from_item_id', $single);
     }
 
     public function getValToRef($val_aid, $ref_aid, object &$items, object &$refs, $single = true)
     {
-        $this->getValOnRef($val_aid, $ref_aid, $items, $refs, 'to_item_id', $single);
+        return $this->getValOnRef($val_aid, $ref_aid, $items, $refs, 'to_item_id', $single);
     }
 
     public function getValOnRef($val_aid, $ref_aid, object &$items, object &$refs, $dir, $single = true)
     {
         $reverse = ($dir === 'to_item_id') ? 'from_item_id' : 'to_item_id';
         $matches = $refs->findRefsForItem($this->id, $ref_aid, $dir, 'obj');
-        if (empty($matches)) {
-            return $this;
-        } elseif (count($matches) > 1 && $single === true) {
-            LogIt::reportWarning('Found '.count($matches)." for id ($item->id) and ref aid ($ref_aid) on ".__FUNCTION__);
+
+        if ($matches->count() === 0) {
+            return null;
+        } elseif ($matches->count() > 1 && $single === true) {
+            LogIt::reportWarning('Found '.$matches->count()." for id ($item->id) and ref aid ($ref_aid) on ".__FUNCTION__);
         }
 
         $valSet = [];
         if ($single === true) {
             $match = $matches[0];
-            $valSet = $items->getById($match->$reverse)->getValueByAid($val_aid)->getData;
+            $valSet = $items->getById($match->$reverse)->getValueByAid($val_aid)->getData();
         } else {
             foreach ($matches as $match) {
-                $valSet[$match->id] = $items->getById($match->$reverse)->getValueByAid($val_aid)->getData;
+                $valSet[$match->id] = $items->getById($match->$reverse)->getValueByAid($val_aid)->getData();
             }
         }
 
