@@ -206,22 +206,4 @@ class Item extends OriginalItem
 
         return $valSet;
     }
-
-    public function verifyOrRetrieveAtt(string $aid): object
-    {
-        if (! isset($this->atttributes[$aid])) {
-            $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data;
-            $this->setAttributes($atts);
-        }
-
-        return $this;
-    }
-
-    public function retrieveAtts(): object
-    {
-        $atts = $this->client->boards($this->board_id)->attributes()->getAll()->data;
-        $this->setAttributes($atts);
-
-        return $this;
-    }
 }

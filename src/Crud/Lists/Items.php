@@ -88,4 +88,17 @@ class Items extends OriginalItems
 
         return $this;
     }
+
+    public function setAttributes(?array $atts = null): object
+    {
+        if (is_null($atts)) {
+            $this->attributes = $this->client->boards($this->board_id)->attributes()->setSkipConvObj()->getAllLoop()->data;
+        } else {
+            $this->attributes = $atts;
+        }
+
+        $this->assignAttributes();
+
+        return $this;
+    }
 }
