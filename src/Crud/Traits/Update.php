@@ -13,7 +13,7 @@ trait Update
         $apiObject = $this->buildUpdate(__FUNCTION__, $this->id, $this->getUpdateSet());
         $this->updated = false;
         $this->api_updated = true;
-        $this->setObjectVars($apiObject);
+        $this->resetObjectVars($apiObject);
 
         return $this;
     }

@@ -7,8 +7,8 @@ use KyleWLawrence\Infinity\Services\InfinityService;
 trait Construct
 {
     public function __construct(
-        object $apiObject,
-        ?string $board_id = null,
+        protected object $apiObject,
+        protected ?string $board_id,
         protected $client = new InfinityService(),
     ) {
         parent::__construct($apiObject, $board_id);

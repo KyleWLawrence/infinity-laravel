@@ -17,8 +17,8 @@ class Item extends OriginalItem
     }
 
     public function __construct(
-        object $apiObject,
-        protected ?string $board_id = null,
+        protected object $apiObject,
+        protected ?string $board_id,
         protected null|object|array $attributes = null,
         protected $client = new InfinityService(),
     ) {

@@ -6,8 +6,13 @@ trait Delete
 {
     public function delete(): void
     {
-        $this->buildDelete(__FUNCTION__, $this->id);
-        $this->deleted = true;
+        $apiObject = $this->buildDelete(__FUNCTION__, $this->id);
+        foreach ($this->object_keys as $key) {
+            unset($this->$key);
+        }
+
+        $this->resetObjectVars($apiObject);
+        $this->updated = false;
         $this->api_deleted = true;
     }
 }
