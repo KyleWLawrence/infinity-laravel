@@ -8,8 +8,7 @@ use KyleWLawrence\Infinity\Data\Objects\AttributeLabel as OriginalAttributeLabel
 
 class AttributeLabel extends OriginalAttributeLabel
 {
-    use Defaults;
-    use Construct;
+    use Construct, Defaults;
 
     protected array $label_map;
 
