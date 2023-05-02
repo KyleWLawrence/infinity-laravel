@@ -58,4 +58,43 @@ class AttributeLabel extends OriginalAttributeLabel
 
         return $ids;
     }
+
+    public function clearUnusedLabels(): object
+    {
+        $items = $this->client->boards($bid)->items()->setAttributes($this->toArray())->getAllLoop()->data;
+        $folders = $this->client->boards($bid)->folders()->getAllLoop()->data;
+        $fids = [];
+
+        foreach ($folders as $folder) {
+            if (in_array($aid, $folder->attribute_ids)) {
+                $fids[] = $folder->id;
+            }
+        }
+
+        $labelIds = array_column($att->settings->labels, 'id');
+        foreach ($items as $item) {
+            if (! in_array($item->folder_id, $fids)) {
+                continue;
+            }
+
+            $ids = $item->getValueByAid($aid)->getData();
+            if ($ids) {
+                $labelIds = array_diff($labelIds, $ids);
+
+                if (empty($labelIds)) {
+                    break;
+                }
+            }
+        }
+
+        if ($labelIds) {
+            foreach ($labelIds as $lid) {
+                $att->removeLabelId($lid);
+            }
+
+            $att->update();
+        }
+
+        return $this;
+    }
 }
