@@ -16,7 +16,10 @@ class AttributeLabel extends OriginalAttributeLabel
     {
         parent::setObjectVars($apiObject);
 
-        $this->label_map = array_combine(array_column($this->settings->labels, 'id'), array_column($this->settings->labels, 'name'));
+        $labels = (array) $this->settings->labels;
+        $ids = array_column($labels, 'id');
+        $names = array_column($labels, 'name');
+        $this->label_map = array_combine($ids, $names);
     }
 
     public function createOrGetLabelIdBySet(array $set): string
