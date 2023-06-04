@@ -113,7 +113,8 @@ class Item extends OriginalItem
         }
 
         $match = $matches[0];
-        $orig_refs = $refs->findRefsForItem($this->id, $ref_aid, $dir);
+        $orig_ref_dir = ($dir === 'from_item_id') ? 'to_item_id' : 'from_item_id';
+        $orig_refs = $refs->findRefsForItem($this->id, $ref_aid, $orig_ref_dir, 'obj');
         $refKey = false;
 
         foreach ($orig_refs as $key => $ref) {
