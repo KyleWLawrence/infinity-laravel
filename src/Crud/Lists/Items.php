@@ -20,18 +20,21 @@ class Items extends OriginalItems
         parent::__construct($apiObjects, $board_id, $attributes);
     }
 
-    public function deleteInFolder(?string $fid = null): array
+    public function deleteInFolder(?string $fid = null): object
     {
         $deleted = [];
-        foreach ($this->items as &$item) {
+        foreach ($this->list as $key => &$item) {
             if (is_null($fid) || $item->folder_id === $fid) {
                 $deleted[] = $item->id;
                 LogIt::LogActivity("Deleting Item: {$item->id}");
                 $item->delete();
+                unset($this->list[$key]);
             }
         }
 
-        return $deleted;
+        sort($this->list);
+
+        return $this;
     }
 
     public function getDupeByAtts($aids, $return = 'obj'): array|object

@@ -106,7 +106,7 @@ class Item extends OriginalItem
     public function createRefOnValMatch($val, $val_aid, $ref_aid, object &$items, object &$refs, $dir, $deleteExtra = true): object
     {
         $matches = $items->findItemsByData($val, $val_aid);
-        if (empty($matches)) {
+        if ($this->isNew() || empty($matches)) {
             return $this;
         } elseif (count($matches) > 1) {
             LogIt::reportWarning('Found '.count($matches)." for value ($val) and aid ($val_aid) on ".__FUNCTION__);
@@ -114,6 +114,7 @@ class Item extends OriginalItem
 
         $match = $matches[0];
         $orig_ref_dir = ($dir === 'from_item_id') ? 'to_item_id' : 'from_item_id';
+
         $orig_refs = $refs->findRefsForItem($this->id, $ref_aid, $orig_ref_dir, 'obj');
         $refKey = false;
 
