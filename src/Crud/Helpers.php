@@ -14,6 +14,7 @@ use KyleWLawrence\Infinity\Crud\Objects\Folder;
 use KyleWLawrence\Infinity\Crud\Objects\Hook;
 use KyleWLawrence\Infinity\Crud\Objects\Item;
 use KyleWLawrence\Infinity\Crud\Objects\Reference;
+use KyleWLawrence\Infinity\Crud\Objects\User;
 use KyleWLawrence\Infinity\Crud\Objects\View;
 use KyleWLawrence\Infinity\Crud\Objects\Workspace;
 
@@ -36,6 +37,7 @@ if (! function_exists('conv_laravel_inf_obj')) {
             'reference' => new Reference($obj, $boardId),
             'folderview', 'view' => new View($obj, $boardId),
             'workspace' => new Workspace($obj),
+            'user' => new User($obj),
             default => throw new Exception("Unknown Object Type: $obj->type for {$obj->id}"),
         };
 
